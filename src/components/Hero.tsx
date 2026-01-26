@@ -3,26 +3,6 @@
 export function Hero() {
   return (
     <section className="relative h-screen flex flex-col justify-between overflow-hidden bg-vintage-cream">
-      {/* Ticker Band */}
-      <div className="w-full bg-vintage-red py-4 border-y-2 border-vintage-red/20 overflow-hidden mt-12 relative z-20">
-        <div className="flex animate-marquee whitespace-nowrap">
-          {[...Array(10)].map((_, i) => (
-            <div key={i} className="flex items-center mx-4 space-x-12 text-vintage-cream uppercase font-ultra text-lg tracking-[0.2em]">
-              <span className="ultra-regular">Eat in Style</span>
-              <span className="text-2xl">✦</span>
-              <span className="ultra-regular">Move Freely</span>
-              <span className="text-2xl">✦</span>
-              <span className="ultra-regular">Look Fierce</span>
-              <span className="text-2xl">✦</span>
-              <span className="ultra-regular">Power the Hustle</span>
-              <span className="text-2xl">✦</span>
-              <span className="ultra-regular">Confidence</span>
-              <span className="text-2xl">✦</span>
-            </div>
-          ))}
-        </div>
-      </div>
-
       {/* Main Content Area */}
       <div className="flex-1 relative flex items-center justify-center overflow-hidden">
         {/* Decorative elements */}
