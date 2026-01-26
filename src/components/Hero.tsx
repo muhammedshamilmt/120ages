@@ -1,67 +1,57 @@
-import React from 'react';
+"use client";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-between pt-20 pb-0 overflow-hidden bg-[#FFEAD3]">
-      {/* Top Decoration */}
-      <div className="absolute top-0 left-0 w-full h-2 bg-[#8B0000]/10" />
-      
-      {/* Content Area */}
-      <div className="flex-1 flex flex-col items-center justify-center px-4 text-center z-10">
-        <span className="text-[#8B0000] font-medium tracking-widest uppercase mb-4 animate-in fade-in slide-in-from-top-4 duration-1000">
-          Established 1984
-        </span>
-        
-        <div className="relative mb-8">
-          <div className="absolute -inset-4 bg-[#D4A373]/20 blur-3xl rounded-full animate-pulse" />
-          <h2 className="ultra-regular text-4xl md:text-6xl text-[#2D241E] relative">
-            TIMELESS PIECES
-          </h2>
-        </div>
-        
-        <p className="max-w-xl text-lg text-[#7F6D5F] leading-relaxed mb-10">
-          Curating the finest vintage collection for those who appreciate 
-          the soul of the past and the style of the present.
-        </p>
-        
-        <button className="px-10 py-4 bg-[#8B0000] text-[#FFEAD3] ultra-regular text-lg hover:bg-[#2D241E] transition-all duration-300 transform hover:scale-105 shadow-xl">
-          SHOP THE ARCHIVE
-        </button>
-      </div>
-
-      {/* Main Title at Bottom */}
-      <div className="w-full text-center py-12 px-4 z-10">
-        <h1 className="ultra-regular text-7xl md:text-[12rem] leading-none text-[#8B0000] opacity-90 tracking-tighter hover:tracking-normal transition-all duration-700 cursor-default select-none">
-          VINTAGE
-        </h1>
-      </div>
-
-      {/* Marquee/Band Div at the very bottom */}
-      <div className="w-full bg-[#8B0000] py-4 border-t-2 border-b-2 border-[#2D241E] overflow-hidden whitespace-nowrap">
-        <div className="flex animate-[marquee_20s_linear_infinite] items-center gap-12 text-[#FFEAD3] ultra-regular text-xl uppercase">
+    <section className="relative h-screen flex flex-col justify-between overflow-hidden bg-vintage-cream">
+      {/* Ticker Band */}
+      <div className="w-full bg-vintage-red py-4 border-y-2 border-vintage-red/20 overflow-hidden mt-12 relative z-20">
+        <div className="flex animate-marquee whitespace-nowrap">
           {[...Array(10)].map((_, i) => (
-            <React.Fragment key={i}>
-              <span>Great in Style</span>
+            <div key={i} className="flex items-center mx-4 space-x-12 text-vintage-cream uppercase font-ultra text-lg tracking-[0.2em]">
+              <span className="ultra-regular">Eat in Style</span>
               <span className="text-2xl">✦</span>
-              <span>Move Freely</span>
+              <span className="ultra-regular">Move Freely</span>
               <span className="text-2xl">✦</span>
-              <span>Look Fierce</span>
+              <span className="ultra-regular">Look Fierce</span>
               <span className="text-2xl">✦</span>
-              <span>Power the Hustle</span>
+              <span className="ultra-regular">Power the Hustle</span>
               <span className="text-2xl">✦</span>
-              <span>Confidence</span>
+              <span className="ultra-regular">Confidence</span>
               <span className="text-2xl">✦</span>
-            </React.Fragment>
+            </div>
           ))}
         </div>
       </div>
 
-      <style jsx>{`
-        @keyframes marquee {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
-        }
-      `}</style>
+      {/* Main Content Area */}
+      <div className="flex-1 relative flex items-center justify-center overflow-hidden">
+        {/* Decorative elements */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] pointer-events-none opacity-10">
+           <div className="absolute inset-0 border-[40px] border-vintage-red rounded-full animate-pulse" />
+           <div className="absolute inset-20 border-[20px] border-vintage-red rounded-full" />
+        </div>
+        
+        {/* Central Graphic Placeholder */}
+        <div className="relative z-10 text-center">
+          <div className="w-64 h-64 md:w-96 md:h-96 border-4 border-vintage-red rounded-full flex items-center justify-center relative bg-vintage-cream shadow-[20px_20px_0px_0px_rgba(139,0,0,0.1)]">
+            <span className="font-ultra text-8xl md:text-[12rem] text-vintage-red select-none">V</span>
+            <div className="absolute -top-4 -right-4 bg-vintage-red text-vintage-cream p-4 rotate-12 font-ultra text-xl border-2 border-vintage-cream">
+              EST. 2026
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Title at the Bottom */}
+      <div className="relative w-full p-6 md:p-12 z-20">
+        <div className="flex flex-col items-center">
+          <h1 className="text-[15vw] leading-[0.75] font-ultra text-vintage-red uppercase tracking-[-0.05em] text-center ultra-regular drop-shadow-sm">
+            VINTAGE<br />
+            <span className="ml-[5vw]">CLOTHING</span>
+          </h1>
+          <div className="w-full h-1 bg-vintage-red mt-4 opacity-30" />
+        </div>
+      </div>
     </section>
   );
 }
