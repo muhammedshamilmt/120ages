@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-vintage-cream/80 backdrop-blur-md border-b border-vintage-red/10">
+    <nav className="relative w-full z-50 bg-vintage-cream border-b-2 border-vintage-red/20">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo / Heading */}
         <Link href="/" className="font-ultra text-3xl md:text-4xl text-vintage-red tracking-tight hover:opacity-80 transition-opacity">

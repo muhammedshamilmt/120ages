@@ -2,7 +2,7 @@
 
 export function Hero() {
   return (
-    <section className="relative h-screen flex flex-col justify-between overflow-hidden bg-vintage-cream">
+    <section className="relative min-h-[calc(100vh-80px)] flex flex-col justify-between overflow-hidden bg-vintage-cream">
       {/* Main Content Area */}
       <div className="flex-1 relative flex items-center justify-center overflow-hidden">
         {/* Decorative elements */}
