@@ -25,10 +25,10 @@ export function Hero() {
       {/* Main Title at the Bottom */}
       <div className="relative w-full p-6 md:p-12 z-20">
         <div className="flex flex-col items-center">
-          <h1 className="text-[12vw] leading-[0.85] font-ultra text-vintage-red uppercase tracking-[-0.05em] text-center ultra-regular drop-shadow-sm">
-            Sip Healthy<br />
-            <span className="ml-[5vw]">Live Longer</span>
-          </h1>
+            <h1 className="text-[10vw] md:text-[8vw] lg:text-[7vw] leading-[0.85] font-ultra text-vintage-red uppercase tracking-[-0.05em] text-center ultra-regular drop-shadow-sm">
+              Sip Healthy<br />
+              <span className="ml-[4vw]">Live Longer</span>
+            </h1>
           <div className="w-full h-1 bg-vintage-red mt-4 opacity-30" />
         </div>
       </div>
