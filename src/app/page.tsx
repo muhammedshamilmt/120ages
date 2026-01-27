@@ -4,6 +4,7 @@ import { Navbar } from "@/components/Navbar";
 import { AboutSection } from "@/components/AboutSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { TestimonialSection } from "@/components/TestimonialSection";
+import { OfferingsSection } from "@/components/OfferingsSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <TickerBand />
       <AboutSection />
       <ExperienceSection />
+      <OfferingsSection />
       <TestimonialSection />
     </main>
   );
