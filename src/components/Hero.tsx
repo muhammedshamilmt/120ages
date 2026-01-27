@@ -6,14 +6,15 @@ export function Hero() {
   return (
     <section className="relative min-h-[calc(100vh-80px)] flex flex-col justify-between overflow-hidden bg-vintage-cream">
       {/* Global Background Logo */}
-      <div className="absolute inset-0 pointer-events-none opacity-[0.03] flex items-center justify-center z-0 overflow-hidden">
-        <Image 
-          src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/df78dac5-7d8d-47bd-994b-90e733dd5e67/image-1769497755900.png?width=8000&height=8000&resize=contain"
-          alt="Background Logo Texture"
-          fill
-          className="object-contain scale-125 md:scale-150 rotate-12"
-        />
-      </div>
+        <div className="absolute inset-0 pointer-events-none opacity-[0.03] flex items-center justify-center z-0 overflow-hidden">
+          <Image 
+            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/df78dac5-7d8d-47bd-994b-90e733dd5e67/image-1769497755900.png?width=1200&height=1200&resize=contain"
+            alt="Background Logo Texture"
+            fill
+            sizes="100vw"
+            className="object-contain scale-125 md:scale-150 rotate-12"
+          />
+        </div>
       {/* Main Content Area */}
       <div className="flex-1 relative flex items-center justify-center overflow-hidden">
         {/* Decorative elements */}

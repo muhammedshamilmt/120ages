@@ -27,12 +27,13 @@ export function AboutMoments() {
           {images.map((src, idx) => (
             <div key={idx} className="relative aspect-[4/5] overflow-hidden group border-2 border-vintage-cream/10 p-2 bg-vintage-cream">
               <div className="relative w-full h-full overflow-hidden">
-                <Image
-                  src={src}
-                  alt={`Moment ${idx + 1}`}
-                  fill
-                  className="object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
-                />
+                  <Image
+                    src={src}
+                    alt={`Moment ${idx + 1}`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    className="object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
+                  />
               </div>
               {/* Polaroids effect caption */}
               <div className="pt-4 pb-2 text-center">

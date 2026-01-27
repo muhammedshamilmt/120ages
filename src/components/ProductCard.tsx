@@ -5,14 +5,15 @@ import { Product } from "@/lib/products";
 export function ProductCard({ product }: { product: Product }) {
   return (
     <div className="group relative bg-vintage-cream border-2 border-muted-brown/10 p-4 transition-all duration-500 hover:border-muted-brown/40">
-      <div className="relative aspect-square overflow-hidden mb-6">
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
-        />
-        <div className="absolute top-4 left-4">
+        <div className="relative aspect-square overflow-hidden mb-6">
+          <Image
+            src={product.image}
+            alt={product.name}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
+          />
+          <div className="absolute top-4 left-4">
           <span className="bg-forest-green text-vintage-cream px-3 py-1 font-ultra text-[10px] tracking-widest uppercase">
             {product.category}
           </span>

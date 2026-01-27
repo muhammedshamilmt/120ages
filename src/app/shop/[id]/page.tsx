@@ -33,15 +33,16 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
           </Link>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            {/* Image Gallery */}
-            <div className="relative aspect-square bg-white border-2 border-muted-brown/10 overflow-hidden">
-              <Image
-                src={product.image}
-                alt={product.name}
-                fill
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
-              />
-            </div>
+              {/* Image Gallery */}
+              <div className="relative aspect-square bg-white border-2 border-muted-brown/10 overflow-hidden">
+                <Image
+                  src={product.image}
+                  alt={product.name}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                />
+              </div>
 
             {/* Product Details */}
             <div className="space-y-12">
@@ -100,12 +101,13 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
             {products.filter(p => p.id !== product.id).slice(0, 3).map((p) => (
               <Link key={p.id} href={`/shop/${p.id}`} className="group space-y-4">
                 <div className="relative aspect-[4/5] overflow-hidden border-2 border-muted-brown/5">
-                  <Image
-                    src={p.image}
-                    alt={p.name}
-                    fill
-                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                  />
+                    <Image
+                      src={p.image}
+                      alt={p.name}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                    />
                 </div>
                 <div>
                   <h3 className="font-ultra text-sm text-muted-brown uppercase group-hover:text-forest-green transition-colors">

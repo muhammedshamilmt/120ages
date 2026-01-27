@@ -3,5 +3,8 @@
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/menu/page": "app/menu/page.js",
   "/page": "app/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/shop/[id]/page": "app/shop/[id]/page.js",
+  "/shop/page": "app/shop/page.js",
   "/wellness/page": "app/wellness/page.js"
 }

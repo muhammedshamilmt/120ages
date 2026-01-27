@@ -30,6 +30,7 @@ export function AboutSection() {
           src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=2000"
           alt="Vintage Cafe Interior"
           fill
+          sizes="100vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />

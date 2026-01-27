@@ -13,13 +13,13 @@ export function Navbar() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
-              {[
-                { name: "MENU", href: "/menu" },
-                { name: "ABOUT", href: "/about" },
-                { name: "WELLNESS", href: "/wellness" },
-                { name: "SHOP", href: "/shop" },
-                { name: "CONTACT", href: "/#contact" },
-              ].map((item) => (
+                {[
+                  { name: "MENU", href: "/menu" },
+                  { name: "ABOUT", href: "/about" },
+                  { name: "WELLNESS", href: "/wellness" },
+                  { name: "SHOP", href: "/shop" },
+                  { name: "PRIVACY", href: "/privacy" },
+                ].map((item) => (
             <Link
               key={item.name}
               href={item.href}

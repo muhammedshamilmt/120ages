@@ -51,11 +51,11 @@ function Navbar() {
                         },
                         {
                             name: "SHOP",
-                            href: "/#shop"
+                            href: "/shop"
                         },
                         {
-                            name: "CONTACT",
-                            href: "/#contact"
+                            name: "PRIVACY",
+                            href: "/privacy"
                         }
                     ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             "data-orchids-id": "src\\components\\Navbar.tsx:23:12",
@@ -280,46 +280,47 @@ function OfferingsSection(param) {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             "data-map-index": index,
-                                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:43:18@offerings",
+                                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:43:20@offerings",
                                             "data-orchids-name": "img",
                                             src: item.image,
                                             alt: item.title,
                                             fill: true,
+                                            sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
                                             className: "object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OfferingsSection.tsx",
                                             lineNumber: 43,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            "data-map-index": index,
-                                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:49:18@offerings",
-                                            "data-orchids-name": "div",
-                                            className: "absolute inset-0 bg-forest-green/10 group-hover:bg-transparent transition-colors"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/OfferingsSection.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 19
+                                            columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             "data-map-index": index,
                                             "data-orchids-id": "src\\components\\OfferingsSection.tsx:50:18@offerings",
                                             "data-orchids-name": "div",
+                                            className: "absolute inset-0 bg-forest-green/10 group-hover:bg-transparent transition-colors"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/OfferingsSection.tsx",
+                                            lineNumber: 50,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            "data-map-index": index,
+                                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:51:18@offerings",
+                                            "data-orchids-name": "div",
                                             className: "absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 "data-map-index": index,
-                                                "data-orchids-id": "src\\components\\OfferingsSection.tsx:51:20@offerings",
+                                                "data-orchids-id": "src\\components\\OfferingsSection.tsx:52:20@offerings",
                                                 "data-orchids-name": "span",
                                                 className: "text-vintage-cream font-ultra text-xs uppercase tracking-widest border border-vintage-cream/30 px-2 py-1",
                                                 children: "Premium Selection"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/OfferingsSection.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 52,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OfferingsSection.tsx",
-                                            lineNumber: 50,
+                                            lineNumber: 51,
                                             columnNumber: 19
                                         }, this)
                                     ]
@@ -330,45 +331,45 @@ function OfferingsSection(param) {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                     "data-map-index": index,
-                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:56:16@offerings",
+                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:57:16@offerings",
                                     "data-orchids-name": "h3",
                                     className: "text-3xl font-ultra uppercase mb-3 transition-colors ".concat(className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream group-hover:text-forest-green' : 'text-black group-hover:text-muted-brown'),
                                     children: item.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferingsSection.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 57,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     "data-map-index": index,
-                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:59:16@offerings",
+                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:60:16@offerings",
                                     "data-orchids-name": "p",
                                     className: "text-lg leading-relaxed font-medium mb-4 ".concat(className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream/80' : 'text-black/80'),
                                     children: item.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferingsSection.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 60,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-map-index": index,
-                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:62:16@offerings",
+                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:63:16@offerings",
                                     "data-orchids-name": "div",
                                     className: "h-px w-12 mb-4 group-hover:w-full transition-all duration-500 ".concat(className.includes('bg-[#1A1A1A]') ? 'bg-forest-green' : 'bg-muted-brown')
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferingsSection.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 63,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     "data-map-index": index,
-                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:63:16@offerings",
+                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:64:16@offerings",
                                     "data-orchids-name": "p",
                                     className: "text-xs uppercase tracking-widest font-bold opacity-60 leading-loose ".concat(className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream' : 'text-black'),
                                     children: item.detail
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferingsSection.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 64,
                                     columnNumber: 17
                                 }, this)
                             ]
@@ -383,67 +384,67 @@ function OfferingsSection(param) {
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:70:10",
+                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:71:10",
                     "data-orchids-name": "div",
                     className: "mt-24 pt-12 border-t flex flex-col md:flex-row justify-between items-center gap-8 ".concat(className.includes('bg-[#1A1A1A]') ? 'border-vintage-cream/10' : 'border-black/10'),
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:71:12",
+                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:72:12",
                             "data-orchids-name": "div",
                             className: "flex items-center gap-4 ".concat(className.includes('bg-[#1A1A1A]') ? 'text-forest-green' : 'text-muted-brown'),
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:72:14",
+                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:73:14",
                                     "data-orchids-name": "div",
                                     className: "w-12 h-12 rounded-full border flex items-center justify-center font-ultra text-2xl ".concat(className.includes('bg-[#1A1A1A]') ? 'border-forest-green' : 'border-muted-brown'),
                                     children: "*"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/OfferingsSection.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:75:14",
+                                    "data-orchids-id": "src\\components\\OfferingsSection.tsx:76:14",
                                     "data-orchids-name": "p",
                                     className: "font-ultra uppercase tracking-tighter text-xl text-vintage-cream",
                                     children: [
                                         "Freshly Brewed & ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:76:33",
+                                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:77:33",
                                             "data-orchids-name": "span",
                                             className: "",
                                             children: "Handcrafted"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/OfferingsSection.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 77,
                                             columnNumber: 34
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/OfferingsSection.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 76,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/OfferingsSection.tsx",
-                            lineNumber: 71,
+                            lineNumber: 72,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:79:12",
+                            "data-orchids-id": "src\\components\\OfferingsSection.tsx:80:12",
                             "data-orchids-name": "button",
                             className: "px-10 py-4 font-ultra uppercase text-lg transition-colors ".concat(className.includes('bg-[#1A1A1A]') ? 'bg-forest-green text-vintage-cream hover:bg-vintage-cream hover:text-black' : 'bg-black text-vintage-cream hover:bg-forest-green'),
                             children: "Explore Menu"
                         }, void 0, false, {
                             fileName: "[project]/src/components/OfferingsSection.tsx",
-                            lineNumber: 79,
+                            lineNumber: 80,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/OfferingsSection.tsx",
-                    lineNumber: 70,
+                    lineNumber: 71,
                     columnNumber: 11
                 }, this)
             ]
@@ -581,58 +582,59 @@ function OurSpace(param) {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-map-index": index,
-                                    "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:53:14@galleryImages",
+                                    "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:53:16@galleryImages",
                                     "data-orchids-name": "div",
                                     className: "relative aspect-[3/4]",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                             "data-map-index": index,
-                                            "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:54:16@galleryImages",
+                                            "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:54:18@galleryImages",
                                             "data-orchids-name": "img",
                                             src: image.url,
                                             alt: image.caption,
                                             fill: true,
+                                            sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw",
                                             className: "object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100 opacity-80 group-hover:opacity-100"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/wellness/OurSpace.tsx",
                                             lineNumber: 54,
-                                            columnNumber: 17
+                                            columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             "data-map-index": index,
-                                            "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:60:16@galleryImages",
+                                            "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:61:18@galleryImages",
                                             "data-orchids-name": "div",
                                             className: "absolute inset-0 group-hover:bg-transparent transition-colors ".concat(isDark ? 'bg-forest-green/5' : 'bg-muted-brown/10')
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/wellness/OurSpace.tsx",
-                                            lineNumber: 60,
-                                            columnNumber: 17
+                                            lineNumber: 61,
+                                            columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/wellness/OurSpace.tsx",
                                     lineNumber: 53,
-                                    columnNumber: 15
+                                    columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-map-index": index,
-                                    "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:62:14@galleryImages",
+                                    "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:63:14@galleryImages",
                                     "data-orchids-name": "div",
                                     className: "absolute bottom-0 left-0 right-0 p-4 border-t-2 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ".concat(isDark ? 'bg-[#1A1A1A] border-vintage-cream/20' : 'bg-vintage-cream border-black'),
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         "data-map-index": index,
-                                        "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:63:16@galleryImages",
+                                        "data-orchids-id": "src\\components\\wellness\\OurSpace.tsx:64:16@galleryImages",
                                         "data-orchids-name": "p",
                                         className: "font-ultra text-sm uppercase tracking-tighter text-center ".concat(isDark ? 'text-vintage-cream' : 'text-black'),
                                         children: image.caption
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/wellness/OurSpace.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 64,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/wellness/OurSpace.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 63,
                                     columnNumber: 15
                                 }, this)
                             ]
@@ -794,6 +796,7 @@ function AboutSection() {
                         src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=2000",
                         alt: "Vintage Cafe Interior",
                         fill: true,
+                        sizes: "100vw",
                         className: "object-cover transition-transform duration-700 group-hover:scale-105"
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutSection.tsx",
@@ -801,12 +804,12 @@ function AboutSection() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        "data-orchids-id": "src\\components\\AboutSection.tsx:35:8",
+                        "data-orchids-id": "src\\components\\AboutSection.tsx:36:8",
                         "data-orchids-name": "div",
                         className: "absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"
                     }, void 0, false, {
                         fileName: "[project]/src/components/AboutSection.tsx",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, this)
                 ]
@@ -816,179 +819,179 @@ function AboutSection() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                "data-orchids-id": "src\\components\\AboutSection.tsx:39:6",
+                "data-orchids-id": "src\\components\\AboutSection.tsx:40:6",
                 "data-orchids-name": "div",
                 className: "mt-20 grid grid-cols-2 lg:grid-cols-4 gap-12 border-t border-vintage-cream/10 pt-16",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        "data-orchids-id": "src\\components\\AboutSection.tsx:40:8",
+                        "data-orchids-id": "src\\components\\AboutSection.tsx:41:8",
                         "data-orchids-name": "div",
                         className: "flex flex-col gap-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:41:10",
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:42:10",
                                 "data-orchids-name": "span",
                                 className: "text-6xl md:text-7xl font-ultra text-muted-brown",
                                 children: "150+"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 41,
+                                lineNumber: 42,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:42:10",
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:43:10",
                                 "data-orchids-name": "span",
                                 className: "text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70",
                                 children: "Herbal Blends"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 42,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutSection.tsx",
-                        lineNumber: 40,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        "data-orchids-id": "src\\components\\AboutSection.tsx:44:8",
+                        "data-orchids-id": "src\\components\\AboutSection.tsx:45:8",
                         "data-orchids-name": "div",
                         className: "flex flex-col gap-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:45:10",
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:46:10",
                                 "data-orchids-name": "span",
                                 className: "text-6xl md:text-7xl font-ultra text-muted-brown",
                                 children: "15"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 45,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:46:10",
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:47:10",
                                 "data-orchids-name": "span",
                                 className: "text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70",
                                 children: "Master Curators"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 46,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutSection.tsx",
-                        lineNumber: 44,
+                        lineNumber: 45,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        "data-orchids-id": "src\\components\\AboutSection.tsx:48:8",
+                        "data-orchids-id": "src\\components\\AboutSection.tsx:49:8",
                         "data-orchids-name": "div",
                         className: "flex flex-col gap-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:49:10",
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:50:10",
                                 "data-orchids-name": "span",
                                 className: "text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70 mb-4",
                                 children: "Community Choice"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 49,
+                                lineNumber: 50,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:50:10",
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:51:10",
                                 "data-orchids-name": "span",
                                 className: "text-4xl md:text-5xl font-ultra uppercase leading-none",
                                 children: [
                                     "Loved",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                        "data-orchids-id": "src\\components\\AboutSection.tsx:50:88",
+                                        "data-orchids-id": "src\\components\\AboutSection.tsx:51:88",
                                         "data-orchids-name": "br"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 51,
                                         columnNumber: 170
                                     }, this),
                                     "Locally"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 50,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutSection.tsx",
-                        lineNumber: 48,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        "data-orchids-id": "src\\components\\AboutSection.tsx:52:8",
+                        "data-orchids-id": "src\\components\\AboutSection.tsx:53:8",
                         "data-orchids-name": "div",
                         className: "flex flex-col gap-2",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:53:10",
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:54:10",
                                 "data-orchids-name": "div",
                                 className: "flex gap-1 mb-4",
                                 children: [
                                     ...Array(5)
                                 ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                        "data-orchids-id": "src\\components\\AboutSection.tsx:55:14",
+                                        "data-orchids-id": "src\\components\\AboutSection.tsx:56:14",
                                         "data-orchids-name": "svg",
                                         className: "w-6 h-6 fill-forest-green",
                                         viewBox: "0 0 24 24",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            "data-orchids-id": "src\\components\\AboutSection.tsx:56:16",
+                                            "data-orchids-id": "src\\components\\AboutSection.tsx:57:16",
                                             "data-orchids-name": "path",
                                             d: "M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/AboutSection.tsx",
-                                            lineNumber: 56,
+                                            lineNumber: 57,
                                             columnNumber: 17
                                         }, this)
                                     }, i, false, {
                                         fileName: "[project]/src/components/AboutSection.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 53,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\AboutSection.tsx:60:10",
-                                "data-orchids-name": "span",
-                                className: "text-4xl md:text-5xl font-ultra uppercase",
-                                children: "5 Stars"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 60,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 "data-orchids-id": "src\\components\\AboutSection.tsx:61:10",
                                 "data-orchids-name": "span",
+                                className: "text-4xl md:text-5xl font-ultra uppercase",
+                                children: "5 Stars"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/AboutSection.tsx",
+                                lineNumber: 61,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                "data-orchids-id": "src\\components\\AboutSection.tsx:62:10",
+                                "data-orchids-name": "span",
                                 className: "text-sm uppercase tracking-[0.3em] font-bold opacity-70",
                                 children: "Review Average"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/AboutSection.tsx",
-                                lineNumber: 61,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/AboutSection.tsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/AboutSection.tsx",
-                lineNumber: 39,
+                lineNumber: 40,
                 columnNumber: 7
             }, this)
         ]

@@ -40,12 +40,13 @@ export function OfferingsSection({ className = "bg-vintage-cream" }: { className
             {offerings.map((item, index) => (
               <div key={index} className="group cursor-pointer">
                 <div className="relative aspect-[4/5] overflow-hidden border-2 border-black mb-6 bg-black">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
-                  />
+                    <Image
+                      src={item.image}
+                      alt={item.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
+                    />
                   <div className="absolute inset-0 bg-forest-green/10 group-hover:bg-transparent transition-colors" />
                   <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                     <span className="text-vintage-cream font-ultra text-xs uppercase tracking-widest border border-vintage-cream/30 px-2 py-1">

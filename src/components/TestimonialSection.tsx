@@ -10,12 +10,13 @@ export function TestimonialSection() {
           {/* Left Side: Image with Border */}
           <div className="relative aspect-square lg:aspect-[4/5] border-2 border-vintage-cream/30 p-4">
             <div className="relative w-full h-full border border-vintage-cream/20 overflow-hidden">
-              <Image
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/image-1769493948735.png?width=8000&height=8000&resize=contain"
-                alt="Vintage Tea House"
-                fill
-                className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
-              />
+                <Image
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/image-1769493948735.png?width=1200&height=1200&resize=contain"
+                  alt="Vintage Tea House"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+                />
               <div className="absolute inset-0 bg-black/10" />
             </div>
             

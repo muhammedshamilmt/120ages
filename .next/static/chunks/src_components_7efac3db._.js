@@ -51,11 +51,11 @@ function Navbar() {
                         },
                         {
                             name: "SHOP",
-                            href: "/#shop"
+                            href: "/shop"
                         },
                         {
-                            name: "CONTACT",
-                            href: "/#contact"
+                            name: "PRIVACY",
+                            href: "/privacy"
                         }
                     ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             "data-orchids-id": "src\\components\\Navbar.tsx:23:12",
@@ -196,113 +196,114 @@ function AboutHero() {
         className: "relative min-h-[70vh] flex flex-col items-center justify-center overflow-hidden bg-[#1A1A1A] pt-20",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:9:6",
+                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:9:8",
                 "data-orchids-name": "div",
                 className: "absolute inset-0 pointer-events-none opacity-[0.05] flex items-center justify-center z-0",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    "data-orchids-id": "src\\components\\about\\AboutHero.tsx:10:8",
+                    "data-orchids-id": "src\\components\\about\\AboutHero.tsx:10:10",
                     "data-orchids-name": "img",
-                    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/df78dac5-7d8d-47bd-994b-90e733dd5e67/image-1769497755900.png?width=8000&height=8000&resize=contain",
+                    src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/df78dac5-7d8d-47bd-994b-90e733dd5e67/image-1769497755900.png?width=1200&height=1200&resize=contain",
                     alt: "Background Texture",
                     fill: true,
+                    sizes: "100vw",
                     className: "object-contain scale-150 rotate-45 invert"
                 }, void 0, false, {
                     fileName: "[project]/src/components/about/AboutHero.tsx",
                     lineNumber: 10,
-                    columnNumber: 9
+                    columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/about/AboutHero.tsx",
                 lineNumber: 9,
-                columnNumber: 7
+                columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:18:6",
+                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:19:6",
                 "data-orchids-name": "div",
                 className: "relative z-10 text-center px-6",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        "data-orchids-id": "src\\components\\about\\AboutHero.tsx:19:8",
+                        "data-orchids-id": "src\\components\\about\\AboutHero.tsx:20:8",
                         "data-orchids-name": "span",
                         className: "font-ultra text-forest-green text-sm md:text-base tracking-[0.3em] uppercase mb-4 block animate-fade-in",
                         children: "Established 2026"
                     }, void 0, false, {
                         fileName: "[project]/src/components/about/AboutHero.tsx",
-                        lineNumber: 19,
+                        lineNumber: 20,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        "data-orchids-id": "src\\components\\about\\AboutHero.tsx:22:8",
+                        "data-orchids-id": "src\\components\\about\\AboutHero.tsx:23:8",
                         "data-orchids-name": "h1",
                         className: "text-[12vw] md:text-[8vw] font-ultra text-vintage-cream leading-[0.85] uppercase tracking-tighter mb-8",
                         children: [
                             "Our ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:23:14",
+                                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:24:14",
                                 "data-orchids-name": "br"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/about/AboutHero.tsx",
-                                lineNumber: 23,
+                                lineNumber: 24,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:24:10",
+                                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:25:10",
                                 "data-orchids-name": "span",
                                 className: "text-forest-green",
                                 children: "Story"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/about/AboutHero.tsx",
-                                lineNumber: 24,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/about/AboutHero.tsx",
-                        lineNumber: 22,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        "data-orchids-id": "src\\components\\about\\AboutHero.tsx:27:8",
+                        "data-orchids-id": "src\\components\\about\\AboutHero.tsx:28:8",
                         "data-orchids-name": "div",
                         className: "max-w-2xl mx-auto",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            "data-orchids-id": "src\\components\\about\\AboutHero.tsx:28:10",
+                            "data-orchids-id": "src\\components\\about\\AboutHero.tsx:29:10",
                             "data-orchids-name": "p",
                             className: "text-lg md:text-xl text-vintage-cream/80 font-medium leading-relaxed italic",
                             children: '"A journey of a thousand sips begins with a single leaf."'
                         }, void 0, false, {
                             fileName: "[project]/src/components/about/AboutHero.tsx",
-                            lineNumber: 28,
+                            lineNumber: 29,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/about/AboutHero.tsx",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/about/AboutHero.tsx",
-                lineNumber: 18,
+                lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:35:6",
+                "data-orchids-id": "src\\components\\about\\AboutHero.tsx:36:6",
                 "data-orchids-name": "div",
                 className: "absolute bottom-0 left-0 w-full h-px bg-vintage-cream/20 flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    "data-orchids-id": "src\\components\\about\\AboutHero.tsx:36:8",
+                    "data-orchids-id": "src\\components\\about\\AboutHero.tsx:37:8",
                     "data-orchids-name": "div",
                     className: "bg-[#1A1A1A] px-4 -translate-y-1/2 font-ultra text-vintage-cream text-xs tracking-widest uppercase",
                     children: "Crafting Moments"
                 }, void 0, false, {
                     fileName: "[project]/src/components/about/AboutHero.tsx",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/about/AboutHero.tsx",
-                lineNumber: 35,
+                lineNumber: 36,
                 columnNumber: 7
             }, this)
         ]
@@ -595,16 +596,17 @@ function AboutMoments() {
                                     className: "relative w-full h-full overflow-hidden",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                         "data-map-index": idx,
-                                        "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:30:16@images",
+                                        "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:30:18@images",
                                         "data-orchids-name": "img",
                                         src: src,
                                         alt: "Moment ".concat(idx + 1),
                                         fill: true,
+                                        sizes: "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw",
                                         className: "object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/about/AboutMoments.tsx",
                                         lineNumber: 30,
-                                        columnNumber: 17
+                                        columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/about/AboutMoments.tsx",
@@ -613,12 +615,12 @@ function AboutMoments() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-map-index": idx,
-                                    "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:38:14@images",
+                                    "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:39:14@images",
                                     "data-orchids-name": "div",
                                     className: "pt-4 pb-2 text-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         "data-map-index": idx,
-                                        "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:39:16@images",
+                                        "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:40:16@images",
                                         "data-orchids-name": "p",
                                         className: "font-ultra text-[10px] text-muted-brown/60 uppercase tracking-widest",
                                         children: [
@@ -627,12 +629,12 @@ function AboutMoments() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/about/AboutMoments.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 40,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/about/AboutMoments.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 39,
                                     columnNumber: 15
                                 }, this)
                             ]

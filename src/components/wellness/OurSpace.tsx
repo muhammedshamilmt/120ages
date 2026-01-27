@@ -50,15 +50,16 @@ export function OurSpace({ className = "bg-vintage-cream" }: { className?: strin
                 index % 2 !== 0 ? 'md:translate-y-12' : ''
               }`}
             >
-              <div className="relative aspect-[3/4]">
-                <Image
-                  src={image.url}
-                  alt={image.caption}
-                  fill
-                  className="object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100 opacity-80 group-hover:opacity-100"
-                />
-                <div className={`absolute inset-0 group-hover:bg-transparent transition-colors ${isDark ? 'bg-forest-green/5' : 'bg-muted-brown/10'}`} />
-              </div>
+                <div className="relative aspect-[3/4]">
+                  <Image
+                    src={image.url}
+                    alt={image.caption}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    className="object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100 opacity-80 group-hover:opacity-100"
+                  />
+                  <div className={`absolute inset-0 group-hover:bg-transparent transition-colors ${isDark ? 'bg-forest-green/5' : 'bg-muted-brown/10'}`} />
+                </div>
               <div className={`absolute bottom-0 left-0 right-0 p-4 border-t-2 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ${isDark ? 'bg-[#1A1A1A] border-vintage-cream/20' : 'bg-vintage-cream border-black'}`}>
                 <p className={`font-ultra text-sm uppercase tracking-tighter text-center ${isDark ? 'text-vintage-cream' : 'text-black'}`}>
                   {image.caption}

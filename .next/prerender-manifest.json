@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "b41ec4d93226f57bba40c44594a559e8",
-    "previewModeSigningKey": "32319d8d440457824737026632dcc439efb70340b21b4b798b3750ca236a9672",
-    "previewModeEncryptionKey": "63ff4bf8720fbefec985ba666d0a76e5fa7b6366be65c0e8a881955e77c537db"
-  }
-}
+{"version":4,"routes":{"/shop/vintage-tea-set":{},"/shop/mountain-honey":{},"/shop/vintage-canvas-bag":{},"/shop/artisanal-ceramic-mug":{},"/shop/dried-lavender-bundle":{},"/shop/botanical-print-notebook":{}},"dynamicRoutes":{"/shop/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/shop/[id]","routeRegex":"^\\/shop\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"b41ec4d93226f57bba40c44594a559e8","previewModeSigningKey":"32319d8d440457824737026632dcc439efb70340b21b4b798b3750ca236a9672","previewModeEncryptionKey":"63ff4bf8720fbefec985ba666d0a76e5fa7b6366be65c0e8a881955e77c537db"}}
