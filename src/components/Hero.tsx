@@ -33,7 +33,7 @@ export function Hero() {
           </h1>
           
           {/* Overlapping Image element */}
-          <div className="absolute bottom-[-10%] md:bottom-[-15%] left-1/2 -translate-x-1/2 z-30 w-[50vw] md:w-[35vw] lg:w-[30vw] aspect-square pointer-events-none">
+          <div className="absolute bottom-[-15%] md:bottom-[-20%] left-1/2 -translate-x-1/2 z-30 w-[65vw] md:w-[50vw] lg:w-[45vw] aspect-square pointer-events-none">
             <Image 
               src="/images/hero-element.png" 
               alt="Vintage Chai Tripod"
