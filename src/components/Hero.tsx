@@ -50,7 +50,7 @@ export function Hero() {
             />
           </div> */}
           <div className="flex flex-col items-center relative">
-            <h1 className="text-[13vw] md:text-[11vw] lg:text-[11vw] xl:text-[10vw] leading-[0.85] font-ultra text-[#1A1A1A] uppercase tracking-[-0.05em] text-center ultra-regular drop-shadow-sm [-webkit-text-stroke:1.5px_white]">
+            <h1 className="text-[13vw] md:text-[11vw] lg:text-[11vw] xl:text-[10vw] leading-[0.85] font-ultra text-[#1A1A1A] uppercase tracking-[-0.05em] text-center ultra-regular drop-shadow-sm [-webkit-text-stroke:6px_white]">
             Sip Healthy<br />
             <span className="ml-[5vw] lg:ml-[3vw]">Live Longer</span>
           </h1>

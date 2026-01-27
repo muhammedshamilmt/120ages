@@ -13,13 +13,18 @@ export function Navbar() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex items-center space-x-8">
-          {["SHOP", "COLLECTIONS", "STORY", "CONTACT"].map((item) => (
+          {[
+            { name: "MENU", href: "/menu" },
+            { name: "SHOP", href: "/#shop" },
+            { name: "STORY", href: "/#story" },
+            { name: "CONTACT", href: "/#contact" },
+          ].map((item) => (
             <Link
-              key={item}
-              href={`#${item.toLowerCase()}`}
+              key={item.name}
+              href={item.href}
               className="font-ultra text-sm text-muted-brown/80 hover:text-muted-brown transition-colors tracking-widest"
             >
-              {item}
+              {item.name}
             </Link>
           ))}
         </div>
