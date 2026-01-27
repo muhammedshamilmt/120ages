@@ -15,12 +15,14 @@ A vintage-style ecommerce landing page with a focus on high-quality typography a
 
 ## User Preferences
 - Background color: #FFEAD3 (Vintage Cream)
+- Text Color: #9E7556 (Muted Brown)
+- Accent Color: #50A845 (Forest Green)
 - Font: Ultra (serif)
 - Aesthetic: Vintage / Retro
 
 ## Project Guidelines
 - Use the `ultra-regular` class for Ultra font styling.
-- Maintain a cohesive vintage palette (Vintage Cream, Vintage Red).
+- Maintain a cohesive vintage palette (Vintage Cream, Muted Brown, Forest Green).
 - Prefer bold, uppercase typography for headings.
 
 ## Common Patterns
