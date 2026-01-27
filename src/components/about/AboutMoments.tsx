@@ -11,13 +11,13 @@ export function AboutMoments() {
   ];
 
   return (
-    <section className="py-24 bg-vintage-cream">
+    <section className="py-24 bg-[#1A1A1A]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16">
           <span className="font-ultra text-forest-green text-sm tracking-[0.3em] uppercase mb-4 block">
             The Gallery
           </span>
-          <h2 className="text-5xl md:text-8xl font-ultra text-muted-brown uppercase leading-[0.85] tracking-tighter">
+          <h2 className="text-5xl md:text-8xl font-ultra text-vintage-cream uppercase leading-[0.85] tracking-tighter">
             Shared <br />
             <span className="text-forest-green">Moments</span>
           </h2>
@@ -25,7 +25,7 @@ export function AboutMoments() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {images.map((src, idx) => (
-            <div key={idx} className="relative aspect-[4/5] overflow-hidden group border-2 border-muted-brown/10 p-2 bg-white">
+            <div key={idx} className="relative aspect-[4/5] overflow-hidden group border-2 border-vintage-cream/10 p-2 bg-vintage-cream">
               <div className="relative w-full h-full overflow-hidden">
                 <Image
                   src={src}
@@ -36,7 +36,7 @@ export function AboutMoments() {
               </div>
               {/* Polaroids effect caption */}
               <div className="pt-4 pb-2 text-center">
-                <p className="font-ultra text-[10px] text-muted-brown/40 uppercase tracking-widest">
+                <p className="font-ultra text-[10px] text-muted-brown/60 uppercase tracking-widest">
                   Captured Archive № {2024 + idx}
                 </p>
               </div>

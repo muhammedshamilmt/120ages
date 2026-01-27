@@ -8,7 +8,7 @@ import { TickerBand } from "@/components/TickerBand";
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-vintage-cream">
+    <main className="min-h-screen bg-[#1A1A1A]">
       <Navbar />
       <AboutHero />
       <TickerBand />

@@ -15,7 +15,7 @@ export function AboutTestimonials() {
   ];
 
   return (
-    <section className="py-24 bg-muted-brown text-vintage-cream overflow-hidden">
+    <section className="py-24 bg-[#1A1A1A] text-vintage-cream overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col items-center mb-16">
           <span className="font-ultra text-forest-green text-sm tracking-[0.3em] uppercase mb-4">
