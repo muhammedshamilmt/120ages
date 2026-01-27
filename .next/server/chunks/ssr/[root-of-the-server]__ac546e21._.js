@@ -349,32 +349,37 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$hooks$2f$use$2d$cart$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/hooks/use-cart.tsx [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shopping-bag.js [app-ssr] (ecmascript) <export default as ShoppingBag>");
 "use client";
 ;
 ;
+;
+;
 function Navbar() {
+    const { setIsCartOpen, totalItems } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$hooks$2f$use$2d$cart$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useCart"])();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        "data-orchids-id": "src\\components\\Navbar.tsx:7:4",
+        "data-orchids-id": "src\\components\\Navbar.tsx:11:4",
         "data-orchids-name": "nav",
         className: "relative w-full z-50 bg-vintage-cream border-b-2 border-muted-brown/20",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            "data-orchids-id": "src\\components\\Navbar.tsx:8:6",
+            "data-orchids-id": "src\\components\\Navbar.tsx:12:6",
             "data-orchids-name": "div",
             className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                    "data-orchids-id": "src\\components\\Navbar.tsx:10:8",
+                    "data-orchids-id": "src\\components\\Navbar.tsx:14:8",
                     "data-orchids-name": "Link",
                     href: "/",
                     className: "font-ultra text-3xl md:text-4xl text-muted-brown tracking-tight hover:opacity-80 transition-opacity",
                     children: "120ages"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
-                    lineNumber: 10,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    "data-orchids-id": "src\\components\\Navbar.tsx:15:8",
+                    "data-orchids-id": "src\\components\\Navbar.tsx:19:8",
                     "data-orchids-name": "div",
                     className: "hidden md:flex items-center space-x-8",
                     children: [
@@ -399,42 +404,76 @@ function Navbar() {
                             href: "/privacy"
                         }
                     ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            "data-orchids-id": "src\\components\\Navbar.tsx:23:12",
+                            "data-orchids-id": "src\\components\\Navbar.tsx:27:12",
                             "data-orchids-name": "Link",
                             href: item.href,
                             className: "font-ultra text-sm text-muted-brown/80 hover:text-muted-brown transition-colors tracking-widest",
                             children: item.name
                         }, item.name, false, {
                             fileName: "[project]/src/components/Navbar.tsx",
-                            lineNumber: 23,
+                            lineNumber: 27,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
-                    lineNumber: 15,
+                    lineNumber: 19,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    "data-orchids-id": "src\\components\\Navbar.tsx:34:8",
+                    "data-orchids-id": "src\\components\\Navbar.tsx:38:8",
                     "data-orchids-name": "div",
                     className: "flex items-center space-x-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            "data-orchids-id": "src\\components\\Navbar.tsx:35:10",
+                            "data-orchids-id": "src\\components\\Navbar.tsx:39:10",
                             "data-orchids-name": "button",
-                            className: "font-ultra text-xs text-muted-brown border-2 border-muted-brown px-4 py-2 hover:bg-muted-brown hover:text-vintage-cream transition-all duration-300",
-                            children: "CART (0)"
-                        }, void 0, false, {
+                            onClick: ()=>setIsCartOpen(true),
+                            className: "group flex items-center gap-2 font-ultra text-xs text-muted-brown border-2 border-muted-brown px-4 py-2 hover:bg-muted-brown hover:text-vintage-cream transition-all duration-300 relative",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shopping$2d$bag$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ShoppingBag$3e$__["ShoppingBag"], {
+                                    "data-orchids-id": "src\\components\\Navbar.tsx:43:12",
+                                    "data-orchids-name": "ShoppingBag",
+                                    className: "h-4 w-4"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Navbar.tsx",
+                                    lineNumber: 43,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    "data-orchids-id": "src\\components\\Navbar.tsx:44:12",
+                                    "data-orchids-name": "span",
+                                    children: [
+                                        "BAG (",
+                                        totalItems,
+                                        ")"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/Navbar.tsx",
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, this),
+                                totalItems > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    "data-orchids-id": "src\\components\\Navbar.tsx:46:14",
+                                    "data-orchids-name": "span",
+                                    className: "absolute -top-2 -right-2 w-5 h-5 bg-forest-green text-white text-[10px] flex items-center justify-center rounded-full border-2 border-vintage-cream font-bold group-hover:scale-110 transition-transform",
+                                    children: totalItems
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Navbar.tsx",
+                                    lineNumber: 46,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/Navbar.tsx",
-                            lineNumber: 35,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            "data-orchids-id": "src\\components\\Navbar.tsx:38:10",
+                            "data-orchids-id": "src\\components\\Navbar.tsx:51:10",
                             "data-orchids-name": "button",
                             className: "md:hidden text-muted-brown",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                "data-orchids-id": "src\\components\\Navbar.tsx:39:12",
+                                "data-orchids-id": "src\\components\\Navbar.tsx:52:12",
                                 "data-orchids-name": "svg",
                                 xmlns: "http://www.w3.org/2000/svg",
                                 width: "24",
@@ -447,7 +486,7 @@ function Navbar() {
                                 strokeLinejoin: "round",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                        "data-orchids-id": "src\\components\\Navbar.tsx:39:190",
+                                        "data-orchids-id": "src\\components\\Navbar.tsx:52:190",
                                         "data-orchids-name": "line",
                                         x1: "3",
                                         y1: "12",
@@ -455,11 +494,11 @@ function Navbar() {
                                         y2: "12"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Navbar.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 52,
                                         columnNumber: 265
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                        "data-orchids-id": "src\\components\\Navbar.tsx:39:234",
+                                        "data-orchids-id": "src\\components\\Navbar.tsx:52:234",
                                         "data-orchids-name": "line",
                                         x1: "3",
                                         y1: "6",
@@ -467,11 +506,11 @@ function Navbar() {
                                         y2: "6"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Navbar.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 52,
                                         columnNumber: 385
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                        "data-orchids-id": "src\\components\\Navbar.tsx:39:276",
+                                        "data-orchids-id": "src\\components\\Navbar.tsx:52:276",
                                         "data-orchids-name": "line",
                                         x1: "3",
                                         y1: "18",
@@ -479,35 +518,35 @@ function Navbar() {
                                         y2: "18"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Navbar.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 52,
                                         columnNumber: 503
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/Navbar.tsx",
-                                lineNumber: 39,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Navbar.tsx",
-                            lineNumber: 38,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/Navbar.tsx",
-                    lineNumber: 34,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/Navbar.tsx",
-            lineNumber: 8,
+            lineNumber: 12,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/Navbar.tsx",
-        lineNumber: 7,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }

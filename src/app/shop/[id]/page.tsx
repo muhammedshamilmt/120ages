@@ -4,6 +4,7 @@ import { products } from "@/lib/products";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { AddToCartButton } from "@/components/AddToCartButton";
 
 export async function generateStaticParams() {
   return products.map((product) => ({
@@ -79,9 +80,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
               </div>
 
               <div className="space-y-4 pt-8">
-                <button className="w-full bg-forest-green text-vintage-cream py-5 font-ultra text-sm tracking-[0.3em] uppercase hover:bg-muted-brown transition-all duration-500">
-                  Add to Cart
-                </button>
+                <AddToCartButton product={product} />
                 <p className="text-center font-ultra text-[10px] tracking-widest text-muted-brown/40 uppercase">
                   Complimentary worldwide shipping on orders over $150
                 </p>

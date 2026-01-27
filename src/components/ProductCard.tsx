@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Product } from "@/lib/products";
+import { AddToCartButton } from "./AddToCartButton";
 
 export function ProductCard({ product }: { product: Product }) {
   return (
@@ -32,13 +33,18 @@ export function ProductCard({ product }: { product: Product }) {
         </p>
       </div>
 
-      <div className="mt-8">
+      <div className="mt-8 grid grid-cols-2 gap-4">
         <Link
           href={`/shop/${product.id}`}
-          className="inline-block w-full text-center border-2 border-muted-brown py-3 font-ultra text-xs tracking-[0.2em] uppercase transition-all duration-300 hover:bg-muted-brown hover:text-vintage-cream"
+          className="inline-block w-full text-center border-2 border-muted-brown py-3 font-ultra text-[10px] tracking-[0.2em] uppercase transition-all duration-300 hover:bg-muted-brown hover:text-vintage-cream"
         >
-          View Details
+          Details
         </Link>
+        <AddToCartButton 
+          product={product} 
+          className="py-3 text-[10px] tracking-[0.2em]" 
+          showIcon={false}
+        />
       </div>
     </div>
   );
