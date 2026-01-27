@@ -31,28 +31,28 @@ const galleryItems = [
 
 export function ExperienceSection() {
   return (
-    <section className="bg-black text-vintage-cream px-6 py-20 md:px-12 md:py-32 lg:px-24 overflow-hidden">
-      <div className="max-w-screen-2xl mx-auto">
+    <section className="bg-black text-vintage-cream px-6 py-16 md:px-12 md:py-24 lg:px-24 overflow-hidden">
+      <div className="max-w-screen-xl mx-auto">
         {/* Top Header Layout */}
-        <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-24">
-          <div className="max-w-3xl">
-            <h2 className="text-5xl md:text-7xl lg:text-[120px] font-ultra uppercase leading-[0.85] tracking-tighter">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-10 mb-20">
+          <div className="max-w-2xl">
+            <h2 className="text-4xl md:text-6xl lg:text-8xl font-ultra uppercase leading-[0.85] tracking-tighter">
               Heritage of <br />
               <span className="text-vintage-red">Wellness</span>
             </h2>
           </div>
-          <div className="lg:max-w-md lg:mt-4">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-ultra leading-[1.1] uppercase mb-6">
+          <div className="lg:max-w-sm lg:mt-4">
+            <p className="text-xl md:text-2xl lg:text-3xl font-ultra leading-[1.1] uppercase mb-4">
               Step into a sanctuary where ancient wisdom meets healing.
             </p>
-            <p className="text-lg opacity-80 leading-relaxed font-medium">
+            <p className="text-base opacity-80 leading-relaxed font-medium">
               A place where the value of time is measured in health, and every ingredient tells a story of tradition. Reclaiming the rhythm of nature, one nourishing sip at a time.
             </p>
           </div>
         </div>
 
         {/* Overlapping Tilted Images */}
-        <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 mt-12 px-4 md:px-0">
+        <div className="relative grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-10 mt-10 px-4 md:px-0 max-w-5xl mx-auto">
           {galleryItems.map((item) => (
             <div 
               key={item.id} 
@@ -80,12 +80,12 @@ export function ExperienceSection() {
         </div>
 
         {/* Bottom Quote Layout */}
-        <div className="mt-32 flex flex-col items-end text-right">
-          <h3 className="text-4xl md:text-6xl lg:text-7xl font-ultra uppercase leading-none max-w-2xl">
+        <div className="mt-24 flex flex-col items-end text-right">
+          <h3 className="text-3xl md:text-5xl lg:text-6xl font-ultra uppercase leading-none max-w-xl">
             Health isn't a goal — <br />
             <span className="text-vintage-red">it's a feeling.</span>
           </h3>
-          <p className="mt-4 text-sm md:text-base font-ultra tracking-widest opacity-60">
+          <p className="mt-4 text-xs md:text-sm font-ultra tracking-widest opacity-60">
             120 AGES & CO.
           </p>
         </div>
