@@ -189,19 +189,19 @@ function AboutHero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         "data-orchids-id": "src\\components\\about\\AboutHero.tsx:7:4",
         "data-orchids-name": "section",
-        className: "relative min-h-[70vh] flex flex-col items-center justify-center overflow-hidden bg-vintage-cream pt-20",
+        className: "relative min-h-[70vh] flex flex-col items-center justify-center overflow-hidden bg-[#1A1A1A] pt-20",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 "data-orchids-id": "src\\components\\about\\AboutHero.tsx:9:6",
                 "data-orchids-name": "div",
-                className: "absolute inset-0 pointer-events-none opacity-[0.03] flex items-center justify-center z-0",
+                className: "absolute inset-0 pointer-events-none opacity-[0.05] flex items-center justify-center z-0",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     "data-orchids-id": "src\\components\\about\\AboutHero.tsx:10:8",
                     "data-orchids-name": "img",
                     src: "https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/df78dac5-7d8d-47bd-994b-90e733dd5e67/image-1769497755900.png?width=8000&height=8000&resize=contain",
                     alt: "Background Texture",
                     fill: true,
-                    className: "object-contain scale-150 rotate-45"
+                    className: "object-contain scale-150 rotate-45 invert"
                 }, void 0, false, {
                     fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/about/AboutHero.tsx",
                     lineNumber: 10,
@@ -230,7 +230,7 @@ function AboutHero() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         "data-orchids-id": "src\\components\\about\\AboutHero.tsx:22:8",
                         "data-orchids-name": "h1",
-                        className: "text-[12vw] md:text-[8vw] font-ultra text-muted-brown leading-[0.85] uppercase tracking-tighter mb-8",
+                        className: "text-[12vw] md:text-[8vw] font-ultra text-vintage-cream leading-[0.85] uppercase tracking-tighter mb-8",
                         children: [
                             "Our ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
@@ -264,7 +264,7 @@ function AboutHero() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             "data-orchids-id": "src\\components\\about\\AboutHero.tsx:28:10",
                             "data-orchids-name": "p",
-                            className: "text-lg md:text-xl text-muted-brown/80 font-medium leading-relaxed italic",
+                            className: "text-lg md:text-xl text-vintage-cream/80 font-medium leading-relaxed italic",
                             children: '"A journey of a thousand sips begins with a single leaf."'
                         }, void 0, false, {
                             fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/about/AboutHero.tsx",
@@ -285,11 +285,11 @@ function AboutHero() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 "data-orchids-id": "src\\components\\about\\AboutHero.tsx:35:6",
                 "data-orchids-name": "div",
-                className: "absolute bottom-0 left-0 w-full h-px bg-muted-brown/20 flex justify-center",
+                className: "absolute bottom-0 left-0 w-full h-px bg-vintage-cream/20 flex justify-center",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     "data-orchids-id": "src\\components\\about\\AboutHero.tsx:36:8",
                     "data-orchids-name": "div",
-                    className: "bg-vintage-cream px-4 -translate-y-1/2 font-ultra text-muted-brown text-xs tracking-widest uppercase",
+                    className: "bg-[#1A1A1A] px-4 -translate-y-1/2 font-ultra text-vintage-cream text-xs tracking-widest uppercase",
                     children: "Crafting Moments"
                 }, void 0, false, {
                     fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/about/AboutHero.tsx",
@@ -341,7 +341,7 @@ function AboutTestimonials() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         "data-orchids-id": "src\\components\\about\\AboutTestimonials.tsx:18:4",
         "data-orchids-name": "section",
-        className: "py-24 bg-muted-brown text-vintage-cream overflow-hidden",
+        className: "py-24 bg-[#1A1A1A] text-vintage-cream overflow-hidden",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             "data-orchids-id": "src\\components\\about\\AboutTestimonials.tsx:19:6",
             "data-orchids-name": "div",
@@ -517,7 +517,7 @@ function AboutMoments() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:14:4",
         "data-orchids-name": "section",
-        className: "py-24 bg-vintage-cream",
+        className: "py-24 bg-[#1A1A1A]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:15:6",
             "data-orchids-name": "div",
@@ -541,7 +541,7 @@ function AboutMoments() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:20:10",
                             "data-orchids-name": "h2",
-                            className: "text-5xl md:text-8xl font-ultra text-muted-brown uppercase leading-[0.85] tracking-tighter",
+                            className: "text-5xl md:text-8xl font-ultra text-vintage-cream uppercase leading-[0.85] tracking-tighter",
                             children: [
                                 "Shared ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
@@ -582,7 +582,7 @@ function AboutMoments() {
                             "data-map-index": idx,
                             "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:28:12@images",
                             "data-orchids-name": "div",
-                            className: "relative aspect-[4/5] overflow-hidden group border-2 border-muted-brown/10 p-2 bg-white",
+                            className: "relative aspect-[4/5] overflow-hidden group border-2 border-vintage-cream/10 p-2 bg-vintage-cream",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     "data-map-index": idx,
@@ -616,7 +616,7 @@ function AboutMoments() {
                                         "data-map-index": idx,
                                         "data-orchids-id": "src\\components\\about\\AboutMoments.tsx:39:16@images",
                                         "data-orchids-name": "p",
-                                        className: "font-ultra text-[10px] text-muted-brown/40 uppercase tracking-widest",
+                                        className: "font-ultra text-[10px] text-muted-brown/60 uppercase tracking-widest",
                                         children: [
                                             "Captured Archive № ",
                                             2024 + idx
