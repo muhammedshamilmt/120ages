@@ -2,7 +2,7 @@
 
 export function CTASection() {
   return (
-    <section className="bg-vintage-red px-6 py-20 md:px-12 md:py-32 lg:px-24 text-vintage-cream relative overflow-hidden min-h-[70vh] flex items-center">
+    <section className="bg-muted-brown px-6 py-20 md:px-12 md:py-32 lg:px-24 text-vintage-cream relative overflow-hidden min-h-[70vh] flex items-center">
       {/* Decorative Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
         <div className="absolute top-10 left-10 text-[150px] font-ultra rotate-12">*</div>
@@ -23,10 +23,10 @@ export function CTASection() {
               <input 
                 type="text" 
                 placeholder="Enter your name"
-                className="w-full bg-transparent border-b-2 border-black py-3 text-xl font-ultra text-black placeholder:text-black/30 focus:outline-none focus:border-vintage-red transition-colors uppercase"
+                className="w-full bg-transparent border-b-2 border-black py-3 text-xl font-ultra text-black placeholder:text-black/30 focus:outline-none focus:border-forest-green transition-colors uppercase"
               />
             </div>
-            <button className="w-full md:w-auto px-10 py-4 bg-black text-vintage-cream font-ultra uppercase text-lg hover:bg-vintage-red transition-colors border-2 border-black">
+            <button className="w-full md:w-auto px-10 py-4 bg-black text-vintage-cream font-ultra uppercase text-lg hover:bg-forest-green transition-colors border-2 border-black">
               Send
             </button>
           </form>

@@ -10,15 +10,15 @@ export function AboutSection() {
         <div className="max-w-4xl">
           <h2 className="text-5xl md:text-7xl lg:text-9xl font-ultra uppercase leading-[0.9] tracking-tighter">
             Welcome to<br />
-            <span className="text-vintage-red">120 Ages</span>
+            <span className="text-muted-brown">120 Ages</span>
           </h2>
         </div>
         <div className="lg:max-w-md lg:text-right self-end lg:mb-4">
           <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed opacity-90 italic">
             "A peaceful spot where herbal teas and nourishing foods come together to refresh your body and soul."
           </p>
-          <div className="mt-4 flex items-center lg:justify-end gap-2 text-vintage-red font-ultra tracking-widest">
-            <div className="h-px w-8 bg-vintage-red hidden lg:block" />
+          <div className="mt-4 flex items-center lg:justify-end gap-2 text-muted-brown font-ultra tracking-widest">
+            <div className="h-px w-8 bg-muted-brown hidden lg:block" />
             <span>EST. 2026</span>
           </div>
         </div>
@@ -38,11 +38,11 @@ export function AboutSection() {
       {/* Stats Section */}
       <div className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-12 border-t border-vintage-cream/10 pt-16">
         <div className="flex flex-col gap-2">
-          <span className="text-6xl md:text-7xl font-ultra text-vintage-red">150+</span>
+          <span className="text-6xl md:text-7xl font-ultra text-muted-brown">150+</span>
           <span className="text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70">Herbal Blends</span>
         </div>
         <div className="flex flex-col gap-2">
-          <span className="text-6xl md:text-7xl font-ultra text-vintage-red">15</span>
+          <span className="text-6xl md:text-7xl font-ultra text-muted-brown">15</span>
           <span className="text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70">Master Curators</span>
         </div>
         <div className="flex flex-col gap-2">
@@ -52,7 +52,7 @@ export function AboutSection() {
         <div className="flex flex-col gap-2">
           <div className="flex gap-1 mb-4">
             {[...Array(5)].map((_, i) => (
-              <svg key={i} className="w-6 h-6 fill-vintage-red" viewBox="0 0 24 24">
+              <svg key={i} className="w-6 h-6 fill-forest-green" viewBox="0 0 24 24">
                 <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
               </svg>
             ))}

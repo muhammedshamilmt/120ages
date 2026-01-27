@@ -38,9 +38,9 @@ export function Footer() {
                   className="w-full bg-transparent border-b-2 border-vintage-cream/20 py-4 font-ultra uppercase text-lg focus:outline-none focus:border-vintage-red transition-colors placeholder:text-vintage-cream/20"
                 />
               </div>
-                <button className="w-full md:w-auto bg-forest-green text-vintage-cream px-12 py-5 font-ultra uppercase text-sm tracking-[0.2em] hover:bg-vintage-cream hover:text-black transition-colors">
-                  Send Message
-                </button>
+              <button className="w-full md:w-auto bg-vintage-red text-black px-12 py-5 font-ultra uppercase text-sm tracking-[0.2em] hover:bg-vintage-cream transition-colors">
+                Send Message
+              </button>
             </div>
           </div>
         </div>

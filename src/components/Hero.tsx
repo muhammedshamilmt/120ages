@@ -15,12 +15,12 @@ export function Hero() {
         
         {/* Central Graphic Placeholder */}
         <div className="relative z-10 text-center">
-            <div className="w-64 h-64 md:w-96 md:h-96 border-4 border-vintage-red rounded-full flex items-center justify-center relative bg-vintage-cream shadow-[20px_20px_0px_0px_rgba(158,117,86,0.1)]">
-              <span className="font-ultra text-8xl md:text-[12rem] text-vintage-red select-none">V</span>
-              <div className="absolute -top-4 -right-4 bg-forest-green text-vintage-cream p-4 rotate-12 font-ultra text-xl border-2 border-vintage-cream">
-                EST. 2026
-              </div>
+          <div className="w-64 h-64 md:w-96 md:h-96 border-4 border-vintage-red rounded-full flex items-center justify-center relative bg-vintage-cream shadow-[20px_20px_0px_0px_rgba(139,0,0,0.1)]">
+            <span className="font-ultra text-8xl md:text-[12rem] text-vintage-red select-none">V</span>
+            <div className="absolute -top-4 -right-4 bg-vintage-red text-vintage-cream p-4 rotate-12 font-ultra text-xl border-2 border-vintage-cream">
+              EST. 2026
             </div>
+          </div>
         </div>
       </div>
 
