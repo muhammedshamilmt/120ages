@@ -6,6 +6,7 @@ import { ExperienceSection } from "@/components/ExperienceSection";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { OfferingsSection } from "@/components/OfferingsSection";
 import { CTASection } from "@/components/CTASection";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <OfferingsSection />
       <TestimonialSection />
       <CTASection />
+      <Footer />
     </main>
   );
 }
