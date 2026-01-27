@@ -8,10 +8,10 @@ export function AboutSection() {
       {/* Top Header Layout */}
       <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-16">
         <div className="max-w-4xl">
-          <h2 className="text-5xl md:text-7xl lg:text-9xl font-ultra uppercase leading-[0.9] tracking-tighter">
-            Welcome to<br />
-            <span className="text-muted-brown">120 Ages</span>
-          </h2>
+            <h2 className="text-5xl md:text-7xl lg:text-9xl font-ultra uppercase leading-[0.9] tracking-tighter">
+              Welcome to<br />
+              <span className="text-forest-green">120 Ages</span>
+            </h2>
         </div>
         <div className="lg:max-w-md lg:text-right self-end lg:mb-4">
           <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed opacity-90 italic">
