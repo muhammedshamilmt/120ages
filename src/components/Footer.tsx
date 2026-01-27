@@ -38,11 +38,11 @@ export function Footer() {
 
         {/* Bottom Branding Section */}
         <div className="border-t border-vintage-cream/10 pt-16 flex flex-col items-center">
-          <div className="relative w-full text-center">
-            {/* Massive 120 AGES Background Text */}
-            <h2 className="text-[12vw] md:text-[18vw] font-ultra uppercase leading-none tracking-tighter text-vintage-cream selection:bg-vintage-red opacity-100 select-none">
-              120 Ages
-            </h2>
+            <div className="relative w-full text-center overflow-hidden">
+              {/* Massive 120 AGES Background Text */}
+              <h2 className="text-[12vw] md:text-[15vw] font-ultra uppercase leading-none tracking-tighter text-vintage-cream selection:bg-vintage-red opacity-100 select-none whitespace-nowrap">
+                120 Ages
+              </h2>
             
             {/* Floating Details */}
             <div className="flex flex-col md:flex-row justify-between items-center w-full mt-8 gap-4">
