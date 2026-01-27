@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export function Hero() {
   return (
     <section className="relative min-h-[calc(100vh-80px)] flex flex-col justify-between overflow-hidden bg-vintage-cream">
@@ -24,13 +26,24 @@ export function Hero() {
 
       {/* Main Title at the Bottom */}
       <div className="relative w-full p-6 md:p-12 z-20">
-        <div className="flex flex-col items-center">
-            <h1 className="text-[13vw] md:text-[11vw] lg:text-[11vw] xl:text-[10vw] leading-[0.85] font-ultra text-vintage-red uppercase tracking-[-0.05em] text-center ultra-regular drop-shadow-sm">
-              Sip Healthy<br />
-              <span className="ml-[5vw] lg:ml-[3vw]">Live Longer</span>
-            </h1>
+        <div className="flex flex-col items-center relative">
+          <h1 className="text-[13vw] md:text-[11vw] lg:text-[11vw] xl:text-[10vw] leading-[0.85] font-ultra text-vintage-red uppercase tracking-[-0.05em] text-center ultra-regular drop-shadow-sm">
+            Sip Healthy<br />
+            <span className="ml-[5vw] lg:ml-[3vw]">Live Longer</span>
+          </h1>
+          
+          {/* Overlapping Image element */}
+          <div className="absolute bottom-[-10%] md:bottom-[-15%] left-1/2 -translate-x-1/2 z-30 w-[50vw] md:w-[35vw] lg:w-[30vw] aspect-square pointer-events-none">
+            <Image 
+              src="/images/hero-element.png" 
+              alt="Vintage Chai Tripod"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   );
 }
