@@ -27,11 +27,11 @@ export function OfferingsSection() {
   return (
     <section className="bg-vintage-cream px-6 py-20 md:px-12 md:py-32 lg:px-24">
       <div className="max-w-screen-2xl mx-auto">
-        <div className="mb-20 text-center md:text-left">
-          <h2 className="text-5xl md:text-8xl lg:text-[140px] font-ultra uppercase leading-[0.85] tracking-tighter text-vintage-red mb-6">
+        <div className="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8 md:gap-12">
+          <h2 className="text-4xl md:text-7xl lg:text-[100px] font-ultra uppercase leading-[0.85] tracking-tighter text-vintage-red">
             Our <br /> Offerings
           </h2>
-          <p className="text-2xl md:text-3xl lg:text-4xl font-ultra leading-[1.1] uppercase max-w-2xl">
+          <p className="text-xl md:text-2xl lg:text-3xl font-ultra leading-[1.1] uppercase max-w-xl md:mb-2 text-left">
             Savor herbal teas, fresh foods, and wellness drinks in a peaceful setting.
           </p>
         </div>

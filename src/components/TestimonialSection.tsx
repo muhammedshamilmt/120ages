@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function TestimonialSection() {
   return (
-    <section className="bg-black text-vintage-cream px-6 py-20 md:px-12 md:py-32 lg:px-24 overflow-hidden">
+    <section className="bg-[#1A1A1A] text-vintage-cream px-6 py-20 md:px-12 md:py-32 lg:px-24 overflow-hidden">
       <div className="max-w-screen-2xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Side: Image with Border */}
