@@ -14,9 +14,9 @@ export function AboutSection() {
             </h2>
         </div>
         <div className="lg:max-w-md lg:text-right self-end lg:mb-4">
-          <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed opacity-90 italic">
-            "A peaceful spot where herbal teas and nourishing foods come together to refresh your body and soul."
-          </p>
+            <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed opacity-90 italic">
+              &quot;A peaceful spot where herbal teas and nourishing foods come together to refresh your body and soul.&quot;
+            </p>
           <div className="mt-4 flex items-center lg:justify-end gap-2 text-muted-brown font-ultra tracking-widest">
             <div className="h-px w-8 bg-muted-brown hidden lg:block" />
             <span>EST. 2026</span>

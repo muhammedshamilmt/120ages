@@ -38,7 +38,7 @@ export function ExperienceSection() {
             <div className="max-w-3xl">
               <h2 className="text-5xl md:text-7xl lg:text-[120px] font-ultra uppercase leading-[0.85] tracking-tighter">
                 Heritage of <br />
-                <span className="text-muted-brown">Wellness</span>
+                <span className="text-forest-green">Wellness</span>
               </h2>
             </div>
           <div className="lg:max-w-md lg:mt-4">
@@ -82,8 +82,8 @@ export function ExperienceSection() {
         {/* Bottom Quote Layout */}
           <div className="mt-32 flex flex-col items-end text-right">
             <h3 className="text-4xl md:text-6xl lg:text-7xl font-ultra uppercase leading-none max-w-2xl">
-              Health isn't a goal — <br />
-              <span className="text-muted-brown">it's a feeling.</span>
+              Health isn&apos;t a goal — <br />
+              <span className="text-forest-green">it&apos;s a feeling.</span>
             </h3>
           <p className="mt-4 text-sm md:text-base font-ultra tracking-widest opacity-60">
             120 AGES & CO.
