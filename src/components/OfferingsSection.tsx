@@ -23,15 +23,15 @@ const offerings = [
   }
 ];
 
-export function OfferingsSection() {
+export function OfferingsSection({ className = "bg-vintage-cream" }: { className?: string }) {
   return (
-    <section className="bg-vintage-cream px-6 py-20 md:px-12 md:py-32 lg:px-24">
+    <section className={`${className} px-6 py-20 md:px-12 md:py-32 lg:px-24`}>
         <div className="max-w-screen-2xl mx-auto">
           <div className="mb-20 flex flex-col md:flex-row md:items-end justify-between gap-8 md:gap-12">
-            <h2 className="text-4xl md:text-7xl lg:text-[100px] font-ultra uppercase leading-[0.85] tracking-tighter text-muted-brown">
+            <h2 className={`text-4xl md:text-7xl lg:text-[100px] font-ultra uppercase leading-[0.85] tracking-tighter ${className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream' : 'text-muted-brown'}`}>
               Our <br /> Offerings
             </h2>
-            <p className="text-xl md:text-2xl lg:text-3xl font-ultra leading-[1.1] uppercase max-w-xl md:mb-2 text-left text-muted-brown/80">
+            <p className={`text-xl md:text-2xl lg:text-3xl font-ultra leading-[1.1] uppercase max-w-xl md:mb-2 text-left ${className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream/80' : 'text-muted-brown/80'}`}>
               Savor herbal teas, fresh foods, and wellness drinks in a peaceful setting.
             </p>
           </div>
@@ -53,30 +53,30 @@ export function OfferingsSection() {
                     </span>
                   </div>
                 </div>
-                <h3 className="text-3xl font-ultra uppercase mb-3 text-black group-hover:text-muted-brown transition-colors">
+                <h3 className={`text-3xl font-ultra uppercase mb-3 transition-colors ${className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream group-hover:text-forest-green' : 'text-black group-hover:text-muted-brown'}`}>
                   {item.title}
                 </h3>
-                <p className="text-lg leading-relaxed font-medium text-black/80 mb-4">
+                <p className={`text-lg leading-relaxed font-medium mb-4 ${className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream/80' : 'text-black/80'}`}>
                   {item.description}
                 </p>
-                <div className="h-px w-12 bg-muted-brown mb-4 group-hover:w-full transition-all duration-500" />
-                <p className="text-xs uppercase tracking-widest font-bold opacity-60 leading-loose">
+                <div className={`h-px w-12 mb-4 group-hover:w-full transition-all duration-500 ${className.includes('bg-[#1A1A1A]') ? 'bg-forest-green' : 'bg-muted-brown'}`} />
+                <p className={`text-xs uppercase tracking-widest font-bold opacity-60 leading-loose ${className.includes('bg-[#1A1A1A]') ? 'text-vintage-cream' : 'text-black'}`}>
                   {item.detail}
                 </p>
               </div>
             ))}
           </div>
   
-          <div className="mt-24 pt-12 border-t border-black/10 flex flex-col md:flex-row justify-between items-center gap-8">
-            <div className="flex items-center gap-4 text-muted-brown">
-              <div className="w-12 h-12 rounded-full border border-muted-brown flex items-center justify-center font-ultra text-2xl">
+          <div className={`mt-24 pt-12 border-t flex flex-col md:flex-row justify-between items-center gap-8 ${className.includes('bg-[#1A1A1A]') ? 'border-vintage-cream/10' : 'border-black/10'}`}>
+            <div className={`flex items-center gap-4 ${className.includes('bg-[#1A1A1A]') ? 'text-forest-green' : 'text-muted-brown'}`}>
+              <div className={`w-12 h-12 rounded-full border flex items-center justify-center font-ultra text-2xl ${className.includes('bg-[#1A1A1A]') ? 'border-forest-green' : 'border-muted-brown'}`}>
                 *
               </div>
-              <p className="font-ultra uppercase tracking-tighter text-xl">
+              <p className="font-ultra uppercase tracking-tighter text-xl text-vintage-cream">
                 Freshly Brewed & <span className="">Handcrafted</span>
               </p>
             </div>
-            <button className="px-10 py-4 bg-black text-vintage-cream font-ultra uppercase text-lg hover:bg-forest-green transition-colors">
+            <button className={`px-10 py-4 font-ultra uppercase text-lg transition-colors ${className.includes('bg-[#1A1A1A]') ? 'bg-forest-green text-vintage-cream hover:bg-vintage-cream hover:text-black' : 'bg-black text-vintage-cream hover:bg-forest-green'}`}>
               Explore Menu
             </button>
           </div>

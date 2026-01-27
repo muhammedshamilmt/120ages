@@ -26,16 +26,16 @@ export default function WellnessPage() {
       <TickerBand />
 
       {/* 1. Offering Section */}
-      {/* <OfferingsSection /> */}
+      <OfferingsSection className="bg-[#1A1A1A]" />
 
       {/* 2. Our Space Gallery */}
-      <OurSpace />
+      <OurSpace className="bg-[#1A1A1A]" />
 
       {/* 3. About Component from Landing Page */}
       <AboutSection />
 
       {/* 4. Contact Section */}
-      <ContactSection />
+      <ContactSection className="bg-[#1A1A1A]" />
 
       <Footer />
     </main>

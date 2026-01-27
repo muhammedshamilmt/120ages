@@ -21,20 +21,22 @@ const galleryImages = [
   },
 ];
 
-export function OurSpace() {
+export function OurSpace({ className = "bg-vintage-cream" }: { className?: string }) {
+  const isDark = className.includes('bg-[#1A1A1A]');
+  
   return (
-    <section className="bg-vintage-cream py-24 px-6 md:px-12 lg:px-24 border-t border-black/10">
+    <section className={`${className} py-24 px-6 md:px-12 lg:px-24 border-t ${isDark ? 'border-vintage-cream/10' : 'border-black/10'}`}>
       <div className="max-w-screen-2xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
           <div>
-            <h2 className="text-5xl md:text-8xl font-ultra uppercase leading-[0.85] tracking-tighter text-muted-brown mb-4">
+            <h2 className={`text-5xl md:text-8xl font-ultra uppercase leading-[0.85] tracking-tighter mb-4 ${isDark ? 'text-vintage-cream' : 'text-muted-brown'}`}>
               Our <br /> Space
             </h2>
-            <p className="text-xl font-ultra uppercase text-muted-brown/70 tracking-widest">
+            <p className={`text-xl font-ultra uppercase tracking-widest ${isDark ? 'text-forest-green' : 'text-muted-brown/70'}`}>
               A haven for the soul
             </p>
           </div>
-          <p className="max-w-md text-lg font-medium text-black/80 leading-relaxed">
+          <p className={`max-w-md text-lg font-medium leading-relaxed ${isDark ? 'text-vintage-cream/80' : 'text-black/80'}`}>
             Every corner of our café is thoughtfully designed to provide a 
             peaceful escape from the bustle of everyday life.
           </p>
@@ -44,7 +46,7 @@ export function OurSpace() {
           {galleryImages.map((image, index) => (
             <div 
               key={index} 
-              className={`group relative overflow-hidden border-2 border-black bg-black ${
+              className={`group relative overflow-hidden border-2 bg-black ${isDark ? 'border-vintage-cream/20' : 'border-black'} ${
                 index % 2 !== 0 ? 'md:translate-y-12' : ''
               }`}
             >
@@ -55,10 +57,10 @@ export function OurSpace() {
                   fill
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100 opacity-80 group-hover:opacity-100"
                 />
-                <div className="absolute inset-0 bg-muted-brown/10 group-hover:bg-transparent transition-colors" />
+                <div className={`absolute inset-0 group-hover:bg-transparent transition-colors ${isDark ? 'bg-forest-green/5' : 'bg-muted-brown/10'}`} />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 p-4 bg-vintage-cream border-t-2 border-black translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-                <p className="font-ultra text-sm uppercase tracking-tighter text-black text-center">
+              <div className={`absolute bottom-0 left-0 right-0 p-4 border-t-2 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ${isDark ? 'bg-[#1A1A1A] border-vintage-cream/20' : 'bg-vintage-cream border-black'}`}>
+                <p className={`font-ultra text-sm uppercase tracking-tighter text-center ${isDark ? 'text-vintage-cream' : 'text-black'}`}>
                   {image.caption}
                 </p>
               </div>
