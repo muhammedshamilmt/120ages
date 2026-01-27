@@ -1,68 +1,65 @@
+"use client";
+
 import Image from "next/image";
 
 export function AboutSection() {
   return (
-    <section className="bg-black text-white py-24 px-6 md:px-12 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-24">
-          <div className="space-y-8">
-            <h2 className="text-[#FF9F1C] text-6xl md:text-8xl font-ultra leading-tight uppercase tracking-tighter">
-              The Warmth<br />
-              of a Simpler<br />
-              Time
-            </h2>
-            <div className="flex items-center gap-4 text-[#FF9F1C]/80 italic font-medium">
-              <div className="h-[1px] w-12 bg-[#FF9F1C]/30"></div>
-              <span>Rustic isn't a style — it's a feeling.</span>
-            </div>
-          </div>
-          
-          <div className="lg:pt-24">
-            <h3 className="text-4xl md:text-5xl font-ultra text-vintage-cream mb-6">
-              Welcome to 120 Ages
-            </h3>
-            <p className="text-xl md:text-2xl text-vintage-cream/80 font-light leading-relaxed max-w-xl">
-              A peaceful spot where herbal teas and nourishing foods come together 
-              to refresh your body and soul.
-            </p>
-          </div>
+    <section className="bg-[#1A1A1A] text-vintage-cream px-6 py-20 md:px-12 md:py-32 lg:px-24">
+      {/* Top Header Layout */}
+      <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-16">
+        <div className="max-w-4xl">
+          <h2 className="text-5xl md:text-7xl lg:text-9xl font-ultra uppercase leading-[0.9] tracking-tighter">
+            Welcome to<br />
+            <span className="text-vintage-red">120 Ages</span>
+          </h2>
         </div>
-
-        {/* Image Display */}
-        <div className="relative aspect-[21/9] w-full border-2 border-vintage-cream/20 overflow-hidden mb-24">
-          <Image
-            src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/df78dac5-7d8d-47bd-994b-90e733dd5e67/image-1769492818938.png?width=2000&height=1000&resize=contain"
-            alt="Diner Scene"
-            fill
-            className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
-          />
-        </div>
-
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 border-t border-vintage-cream/20 pt-12">
-          <div className="text-center md:text-left">
-            <div className="text-5xl md:text-7xl font-ultra text-[#FF9F1C] mb-2">150+</div>
-            <div className="text-sm uppercase tracking-widest text-vintage-cream/60">Blends Created</div>
-          </div>
-          <div className="text-center md:text-left">
-            <div className="text-5xl md:text-7xl font-ultra text-[#FF9F1C] mb-2">15</div>
-            <div className="text-sm uppercase tracking-widest text-vintage-cream/60">Years of Heritage</div>
-          </div>
-          <div className="text-center md:text-left">
-            <div className="text-2xl md:text-3xl font-ultra text-[#FF9F1C] mb-2 uppercase">Loved Locally</div>
-            <div className="text-sm uppercase tracking-widest text-vintage-cream/60">Community Trust</div>
-          </div>
-          <div className="text-center md:text-left">
-            <div className="text-5xl md:text-7xl font-ultra text-[#FF9F1C] mb-2">5 Stars</div>
-            <div className="text-sm uppercase tracking-widest text-vintage-cream/60">Rated by You</div>
+        <div className="lg:max-w-md lg:text-right self-end lg:mb-4">
+          <p className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed opacity-90 italic">
+            "A peaceful spot where herbal teas and nourishing foods come together to refresh your body and soul."
+          </p>
+          <div className="mt-4 flex items-center lg:justify-end gap-2 text-vintage-red font-ultra tracking-widest">
+            <div className="h-px w-8 bg-vintage-red hidden lg:block" />
+            <span>EST. 2026</span>
           </div>
         </div>
       </div>
 
-      {/* Background Decorative Text */}
-      <div className="absolute -bottom-20 -right-20 text-[25rem] font-ultra text-white/[0.03] select-none pointer-events-none uppercase">
-        Rustic
+      {/* Large Featured Image with Layout from Reference */}
+      <div className="relative w-full aspect-[16/9] md:aspect-[21/9] border-4 border-vintage-cream/20 overflow-hidden group">
+        <Image
+          src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=2000"
+          alt="Vintage Cafe Interior"
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+        />
+        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors" />
+      </div>
+
+      {/* Stats Section */}
+      <div className="mt-20 grid grid-cols-2 lg:grid-cols-4 gap-12 border-t border-vintage-cream/10 pt-16">
+        <div className="flex flex-col gap-2">
+          <span className="text-6xl md:text-7xl font-ultra text-vintage-red">150+</span>
+          <span className="text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70">Herbal Blends</span>
+        </div>
+        <div className="flex flex-col gap-2">
+          <span className="text-6xl md:text-7xl font-ultra text-vintage-red">15</span>
+          <span className="text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70">Master Curators</span>
+        </div>
+        <div className="flex flex-col gap-2">
+          <span className="text-sm md:text-base uppercase tracking-[0.3em] font-bold opacity-70 mb-4">Community Choice</span>
+          <span className="text-4xl md:text-5xl font-ultra uppercase leading-none">Loved<br />Locally</span>
+        </div>
+        <div className="flex flex-col gap-2">
+          <div className="flex gap-1 mb-4">
+            {[...Array(5)].map((_, i) => (
+              <svg key={i} className="w-6 h-6 fill-vintage-red" viewBox="0 0 24 24">
+                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+              </svg>
+            ))}
+          </div>
+          <span className="text-4xl md:text-5xl font-ultra uppercase">5 Stars</span>
+          <span className="text-sm uppercase tracking-[0.3em] font-bold opacity-70">Review Average</span>
+        </div>
       </div>
     </section>
   );

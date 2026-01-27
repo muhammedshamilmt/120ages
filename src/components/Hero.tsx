@@ -33,9 +33,9 @@ export function Hero() {
           </h1>
           
           {/* Overlapping Image element */}
-          <div className="absolute bottom-[-20%] md:bottom-[-25%] left-1/2 -translate-x-1/2 z-30 w-[85vw] md:w-[70vw] lg:w-[65vw] aspect-square pointer-events-none">
+          <div className="absolute bottom-[-15%] md:bottom-[-20%] left-1/2 -translate-x-1/2 z-30 w-[95vw] md:w-[85vw] lg:w-[80vw] aspect-square pointer-events-none">
             <Image 
-              src="/images/hero-element.png" 
+              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/project-uploads/df78dac5-7d8d-47bd-994b-90e733dd5e67/image-1769492591288.png?width=8000&height=8000&resize=contain" 
               alt="Vintage Chai Tripod"
               fill
               className="object-contain"
