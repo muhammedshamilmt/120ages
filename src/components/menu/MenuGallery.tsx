@@ -3,46 +3,40 @@ import Image from "next/image";
 
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1544787210-2211d44b565a?q=80&w=1200&auto=format&fit=crop",
-    alt: "A vibrant wooden tray holding a steaming cup of herbal tea, a fresh green smoothie, and a colorful quinoa salad",
+    src: "https://images.unsplash.com/photo-1642739399141-13d39845ab55?auto=format&fit=crop&w=1018&h=544",
+    alt: "A peaceful sanctuary view",
     span: "md:col-span-2 md:row-span-2",
-    caption: "A vibrant wooden tray holding a steaming cup of herbal tea, a fresh green smoothie, and a colorful quinoa salad."
+    caption: "A Sanctuary of Calm"
   },
   {
-    src: "https://images.unsplash.com/photo-1594631252845-29fc4586c55c?q=80&w=800&auto=format&fit=crop",
-    alt: "A steaming cup of chamomile tea with fresh herbs on a wooden table bathed in soft morning light",
+    src: "https://images.unsplash.com/photo-1664192579012-04ad0d0ed344?auto=format&fit=crop&w=194&h=202",
+    alt: "Artisan beverage detail",
     span: "md:col-span-1 md:row-span-1",
-    caption: "Sip: Moments of calm and wellness in every cup."
+    caption: "Artisan Crafts"
   },
   {
-    src: "https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?q=80&w=800&auto=format&fit=crop",
-    alt: "A vibrant bowl of fresh fruit and granola topped with edible flowers on a minimalist white plate",
+    src: "https://images.unsplash.com/photo-1563911892437-1feda0179e1b?auto=format&fit=crop&w=194&h=202",
+    alt: "Fresh herbal ingredients",
     span: "md:col-span-1 md:row-span-1",
-    caption: "Freshly Picked"
+    caption: "Freshly Harvested"
   },
   {
-    src: "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?q=80&w=800&auto=format&fit=crop",
-    alt: "A glass jar filled with colorful herbal tea blends arranged on a rustic wooden shelf",
+    src: "https://images.unsplash.com/photo-1692453851399-b2e348724697?auto=format&fit=crop&w=194&h=202",
+    alt: "Wellness atmosphere",
     span: "md:col-span-1 md:row-span-1",
-    caption: "Artisan Blends"
+    caption: "Mindful Moments"
   },
   {
-    src: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=800&auto=format&fit=crop",
-    alt: "A cozy corner of the café with soft cushions, natural light, and potted plants creating a peaceful vibe",
-    span: "md:col-span-1 md:row-span-2",
-    caption: "A peaceful vibe in every corner."
-  },
-  {
-    src: "https://images.unsplash.com/photo-1610970882799-64a3e1d20980?q=80&w=800&auto=format&fit=crop",
-    alt: "A close-up of a refreshing green smoothie garnished with mint leaves and a slice of lime",
+    src: "https://images.unsplash.com/photo-1546353321-825491c9085d?auto=format&fit=crop&w=194&h=202",
+    alt: "Natural light in cafe",
     span: "md:col-span-1 md:row-span-1",
-    caption: "Glow From Within"
+    caption: "Golden Hour"
   },
   {
-    src: "https://images.unsplash.com/photo-1494859814609-3fbd92d756d9?q=80&w=1200&auto=format&fit=crop",
-    alt: "An inviting spread of fresh sandwiches and salads on a wooden table, ready to nourish and delight",
+    src: "https://images.unsplash.com/photo-1468527296240-6b2225de8cb3?auto=format&fit=crop&w=194&h=202",
+    alt: "Nourishing spread",
     span: "md:col-span-2 md:row-span-1",
-    caption: "Nourish & Delight"
+    caption: "Pure Nourishment"
   }
 ];
 
