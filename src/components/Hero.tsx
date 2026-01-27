@@ -29,9 +29,8 @@ export function Hero() {
               Sip Healthy<br />
               <span className="ml-[5vw] lg:ml-[3vw]">Live Longer</span>
             </h1>
-          <div className="w-full h-1 bg-vintage-red mt-4 opacity-30" />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
   );
 }
