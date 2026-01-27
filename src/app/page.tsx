@@ -5,6 +5,7 @@ import { AboutSection } from "@/components/AboutSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { OfferingsSection } from "@/components/OfferingsSection";
+import { CTASection } from "@/components/CTASection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ExperienceSection />
       <OfferingsSection />
       <TestimonialSection />
+      <CTASection />
     </main>
   );
 }
