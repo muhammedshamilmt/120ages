@@ -3,6 +3,7 @@ import { TickerBand } from "@/components/TickerBand";
 import { Navbar } from "@/components/Navbar";
 import { AboutSection } from "@/components/AboutSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
+import { TestimonialSection } from "@/components/TestimonialSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <TickerBand />
       <AboutSection />
       <ExperienceSection />
+      <TestimonialSection />
     </main>
   );
 }
