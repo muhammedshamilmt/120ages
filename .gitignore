@@ -16,6 +16,9 @@
 # next.js
 /out/
 
+#orchids
+/.orchids
+
 # production
 /build
 
