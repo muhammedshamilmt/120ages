@@ -2,42 +2,51 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-black text-vintage-cream px-6 py-16 md:px-12 md:py-24 lg:px-24">
+    <footer className="bg-black text-vintage-cream px-6 py-16 md:px-12 md:py-24 lg:px-24 border-t border-vintage-cream/10">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
-          {/* Brand Info */}
-          <div className="lg:col-span-2">
-            <h3 className="text-4xl font-ultra uppercase tracking-tighter mb-6">Orchids</h3>
-            <p className="max-w-sm text-vintage-cream/60 font-medium leading-relaxed uppercase text-sm tracking-wide">
-              Crafting timeless experiences through curated vintage aesthetics and modern craftsmanship. Join our journey into the soul of design.
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
+          {/* Contact Info */}
+          <div>
+            <h3 className="text-4xl font-ultra uppercase tracking-tighter mb-4 text-vintage-cream">Visit us! 120 Ages</h3>
+            <p className="text-xl font-ultra text-vintage-red uppercase mb-12 tracking-wide">
+              Sip Healthy. Live Longer.
             </p>
+            
+            <div className="space-y-8">
+              <div>
+                <h4 className="font-ultra uppercase text-xs tracking-[0.3em] text-vintage-cream/40 mb-2">Email</h4>
+                <a href="mailto:hello@120ages.com" className="text-2xl font-ultra uppercase hover:text-vintage-red transition-colors block">
+                  hello@120ages.com
+                </a>
+              </div>
+              <div>
+                <h4 className="font-ultra uppercase text-xs tracking-[0.3em] text-vintage-cream/40 mb-2">Phone</h4>
+                <a href="tel:+919020480880" className="text-2xl font-ultra uppercase hover:text-vintage-red transition-colors block">
+                  +91-9020480880
+                </a>
+              </div>
+            </div>
           </div>
 
-          {/* Navigation */}
-          <div>
-            <h4 className="font-ultra uppercase text-xs mb-6 tracking-[0.2em] text-vintage-red">Explore</h4>
-            <ul className="space-y-4 font-ultra uppercase text-sm tracking-widest">
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Shop All</a></li>
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Archives</a></li>
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Process</a></li>
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Journal</a></li>
-            </ul>
-          </div>
-
-          {/* Social & Contact */}
-          <div>
-            <h4 className="font-ultra uppercase text-xs mb-6 tracking-[0.2em] text-vintage-red">Connect</h4>
-            <ul className="space-y-4 font-ultra uppercase text-sm tracking-widest">
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Instagram</a></li>
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Pinterest</a></li>
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Twitter</a></li>
-              <li><a href="#" className="hover:text-vintage-red transition-colors">Contact</a></li>
-            </ul>
+          {/* Simple Contact Form */}
+          <div className="flex flex-col justify-end">
+            <div className="space-y-6 max-w-md w-full ml-auto">
+              <div className="relative group">
+                <input 
+                  type="text" 
+                  placeholder="Your Name" 
+                  className="w-full bg-transparent border-b-2 border-vintage-cream/20 py-4 font-ultra uppercase text-lg focus:outline-none focus:border-vintage-red transition-colors placeholder:text-vintage-cream/20"
+                />
+              </div>
+              <button className="w-full md:w-auto bg-vintage-red text-black px-12 py-5 font-ultra uppercase text-sm tracking-[0.2em] hover:bg-vintage-cream transition-colors">
+                Send Message
+              </button>
+            </div>
           </div>
         </div>
 
         {/* Bottom Branding Section */}
-        <div className="border-t border-vintage-cream/10 pt-16 flex flex-col items-center">
+        <div className="pt-16 flex flex-col items-center">
             <div className="relative w-full text-center overflow-hidden">
               {/* Massive 120 AGES Background Text */}
               <h2 className="text-[12vw] md:text-[15vw] font-ultra uppercase leading-none tracking-tighter text-vintage-cream selection:bg-vintage-red opacity-100 select-none whitespace-nowrap">
@@ -45,14 +54,14 @@ export function Footer() {
               </h2>
             
             {/* Floating Details */}
-            <div className="flex flex-col md:flex-row justify-between items-center w-full mt-8 gap-4">
+            <div className="flex flex-col md:flex-row justify-between items-center w-full mt-12 gap-4 border-t border-vintage-cream/10 pt-8">
               <p className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40">
-                © {currentYear} ORCHIDS STUDIO • ALL RIGHTS RESERVED
+                © {currentYear} 120 AGES • ALL RIGHTS RESERVED
               </p>
-              <div className="flex gap-4">
-                <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40">LON</span>
-                <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40">NYC</span>
-                <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40">PAR</span>
+              <div className="flex gap-8">
+                <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40 cursor-default hover:text-vintage-red transition-colors">LON</span>
+                <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40 cursor-default hover:text-vintage-red transition-colors">NYC</span>
+                <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40 cursor-default hover:text-vintage-red transition-colors">PAR</span>
               </div>
             </div>
           </div>
