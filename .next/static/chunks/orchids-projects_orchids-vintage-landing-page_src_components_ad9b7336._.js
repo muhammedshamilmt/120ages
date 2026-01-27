@@ -1,0 +1,328 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "Navbar",
+    ()=>Navbar
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/orchids-projects/orchids-vintage-landing-page/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/orchids-projects/orchids-vintage-landing-page/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+"use client";
+;
+;
+function Navbar() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+        "data-orchids-id": "src\\components\\Navbar.tsx:7:4",
+        "data-orchids-name": "nav",
+        className: "relative w-full z-50 bg-vintage-cream border-b-2 border-muted-brown/20",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            "data-orchids-id": "src\\components\\Navbar.tsx:8:6",
+            "data-orchids-name": "div",
+            className: "max-w-7xl mx-auto px-6 py-4 flex items-center justify-between",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                    "data-orchids-id": "src\\components\\Navbar.tsx:10:8",
+                    "data-orchids-name": "Link",
+                    href: "/",
+                    className: "font-ultra text-3xl md:text-4xl text-muted-brown tracking-tight hover:opacity-80 transition-opacity",
+                    children: "120ages"
+                }, void 0, false, {
+                    fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    "data-orchids-id": "src\\components\\Navbar.tsx:15:8",
+                    "data-orchids-name": "div",
+                    className: "hidden md:flex items-center space-x-8",
+                    children: [
+                        {
+                            name: "MENU",
+                            href: "/menu"
+                        },
+                        {
+                            name: "ABOUT",
+                            href: "/about"
+                        },
+                        {
+                            name: "SHOP",
+                            href: "/#shop"
+                        },
+                        {
+                            name: "CONTACT",
+                            href: "/#contact"
+                        }
+                    ].map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            "data-orchids-id": "src\\components\\Navbar.tsx:22:12",
+                            "data-orchids-name": "Link",
+                            href: item.href,
+                            className: "font-ultra text-sm text-muted-brown/80 hover:text-muted-brown transition-colors tracking-widest",
+                            children: item.name
+                        }, item.name, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                            lineNumber: 22,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                    lineNumber: 15,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    "data-orchids-id": "src\\components\\Navbar.tsx:33:8",
+                    "data-orchids-name": "div",
+                    className: "flex items-center space-x-6",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            "data-orchids-id": "src\\components\\Navbar.tsx:34:10",
+                            "data-orchids-name": "button",
+                            className: "font-ultra text-xs text-muted-brown border-2 border-muted-brown px-4 py-2 hover:bg-muted-brown hover:text-vintage-cream transition-all duration-300",
+                            children: "CART (0)"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            "data-orchids-id": "src\\components\\Navbar.tsx:37:10",
+                            "data-orchids-name": "button",
+                            className: "md:hidden text-muted-brown",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                "data-orchids-id": "src\\components\\Navbar.tsx:38:12",
+                                "data-orchids-name": "svg",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                width: "24",
+                                height: "24",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                stroke: "currentColor",
+                                strokeWidth: "2",
+                                strokeLinecap: "round",
+                                strokeLinejoin: "round",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                                        "data-orchids-id": "src\\components\\Navbar.tsx:38:190",
+                                        "data-orchids-name": "line",
+                                        x1: "3",
+                                        y1: "12",
+                                        x2: "21",
+                                        y2: "12"
+                                    }, void 0, false, {
+                                        fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                                        lineNumber: 38,
+                                        columnNumber: 265
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                                        "data-orchids-id": "src\\components\\Navbar.tsx:38:234",
+                                        "data-orchids-name": "line",
+                                        x1: "3",
+                                        y1: "6",
+                                        x2: "21",
+                                        y2: "6"
+                                    }, void 0, false, {
+                                        fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                                        lineNumber: 38,
+                                        columnNumber: 385
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                                        "data-orchids-id": "src\\components\\Navbar.tsx:38:276",
+                                        "data-orchids-name": "line",
+                                        x1: "3",
+                                        y1: "18",
+                                        x2: "21",
+                                        y2: "18"
+                                    }, void 0, false, {
+                                        fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                                        lineNumber: 38,
+                                        columnNumber: 503
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                            lineNumber: 37,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+                    lineNumber: 33,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+            lineNumber: 8,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/Navbar.tsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, this);
+}
+_c = Navbar;
+var _c;
+__turbopack_context__.k.register(_c, "Navbar");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "TickerBand",
+    ()=>TickerBand
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/orchids-projects/orchids-vintage-landing-page/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+"use client";
+;
+function TickerBand() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        "data-orchids-id": "src\\components\\TickerBand.tsx:5:4",
+        "data-orchids-name": "div",
+        className: "w-full bg-forest-green py-6 border-y-4 border-forest-green/30 overflow-hidden relative z-20 shadow-2xl",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            "data-orchids-id": "src\\components\\TickerBand.tsx:6:6",
+            "data-orchids-name": "div",
+            className: "flex animate-marquee whitespace-nowrap",
+            children: [
+                ...Array(10)
+            ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    "data-orchids-id": "src\\components\\TickerBand.tsx:8:10",
+                    "data-orchids-name": "div",
+                    className: "flex items-center mx-4 space-x-12 text-vintage-cream uppercase font-ultra text-2xl tracking-[0.2em]",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:9:12",
+                            "data-orchids-name": "span",
+                            className: "ultra-regular",
+                            children: "Eat in Style"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 9,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:10:12",
+                            "data-orchids-name": "span",
+                            className: "text-3xl",
+                            children: "✦"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 10,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:11:12",
+                            "data-orchids-name": "span",
+                            className: "ultra-regular",
+                            children: "Move Freely"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 11,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:12:12",
+                            "data-orchids-name": "span",
+                            className: "text-3xl",
+                            children: "✦"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 12,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:13:12",
+                            "data-orchids-name": "span",
+                            className: "ultra-regular",
+                            children: "Look Fierce"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 13,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:14:12",
+                            "data-orchids-name": "span",
+                            className: "text-3xl",
+                            children: "✦"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 14,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:15:12",
+                            "data-orchids-name": "span",
+                            className: "ultra-regular",
+                            children: "Power the Hustle"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 15,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:16:12",
+                            "data-orchids-name": "span",
+                            className: "text-3xl",
+                            children: "✦"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 16,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:17:12",
+                            "data-orchids-name": "span",
+                            className: "ultra-regular",
+                            children: "Confidence"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 17,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$orchids$2d$projects$2f$orchids$2d$vintage$2d$landing$2d$page$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            "data-orchids-id": "src\\components\\TickerBand.tsx:18:12",
+                            "data-orchids-name": "span",
+                            className: "text-3xl",
+                            children: "✦"
+                        }, void 0, false, {
+                            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                            lineNumber: 18,
+                            columnNumber: 13
+                        }, this)
+                    ]
+                }, i, true, {
+                    fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+                    lineNumber: 8,
+                    columnNumber: 11
+                }, this))
+        }, void 0, false, {
+            fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+            lineNumber: 6,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/orchids-projects/orchids-vintage-landing-page/src/components/TickerBand.tsx",
+        lineNumber: 5,
+        columnNumber: 5
+    }, this);
+}
+_c = TickerBand;
+var _c;
+__turbopack_context__.k.register(_c, "TickerBand");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+]);
+
+//# sourceMappingURL=orchids-projects_orchids-vintage-landing-page_src_components_ad9b7336._.js.map
