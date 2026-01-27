@@ -32,12 +32,12 @@ const galleryImages = [
     span: "md:col-span-1 md:row-span-1",
     caption: "Serene Spaces"
   },
-  {
-    src: "https://images.unsplash.com/photo-1468527296240-6b2225de8cb3?auto=format&fit=crop&w=194&h=202",
-    alt: "Wellness ritual details",
-    span: "md:col-span-2 md:row-span-1",
-    caption: "Daily Rituals"
-  }
+  // {
+  //   src: "https://images.unsplash.com/photo-1468527296240-6b2225de8cb3?auto=format&fit=crop&w=194&h=202",
+  //   alt: "Wellness ritual details",
+  //   span: "md:col-span-2 md:row-span-1",
+  //   caption: "Daily Rituals"
+  // }
 ];
 
 export function MenuGallery() {
@@ -85,10 +85,9 @@ export function MenuGallery() {
       </section>
 
       {/* Book Now Section */}
-      <section className="bg-vintage-cream pb-32 pt-12">
+      {/* <section className="bg-vintage-cream pb-32 pt-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="relative border-4 border-muted-brown p-12 md:p-24 overflow-hidden rounded-[40px]">
-            {/* Vintage Textures & Ornaments */}
             <div className="absolute top-0 left-0 w-24 h-24 border-r-2 border-b-2 border-muted-brown/20 rounded-br-3xl" />
             <div className="absolute bottom-0 right-0 w-24 h-24 border-l-2 border-t-2 border-muted-brown/20 rounded-tl-3xl" />
             
@@ -113,7 +112,6 @@ export function MenuGallery() {
               </button>
             </div>
 
-            {/* Floating Decorative Elements */}
             <div className="hidden lg:block absolute left-12 top-1/2 -translate-y-1/2 [writing-mode:vertical-lr] font-ultra text-muted-brown/20 text-4xl uppercase tracking-[0.5em]">
               Nourishment
             </div>
@@ -122,7 +120,7 @@ export function MenuGallery() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

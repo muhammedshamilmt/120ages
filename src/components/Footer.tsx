@@ -49,7 +49,7 @@ export function Footer() {
           <div className="pt-16 flex flex-col items-center">
               <div className="relative w-full text-center overflow-hidden">
                 {/* Massive 120 AGES Background Text */}
-                <h2 className="text-[12vw] md:text-[15vw] font-ultra uppercase leading-none tracking-tighter text-vintage-cream selection:bg-forest-green opacity-100 select-none whitespace-nowrap">
+                <h2 className="text-[12vw] md:text-[13vw] font-ultra uppercase leading-none tracking-tighter text-vintage-cream selection:bg-forest-green opacity-100 select-none whitespace-nowrap [-webkit-text-stroke:6px_white]">
                   120 Ages
                 </h2>
               
