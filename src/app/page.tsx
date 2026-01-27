@@ -2,6 +2,7 @@ import { Hero } from "@/components/Hero";
 import { TickerBand } from "@/components/TickerBand";
 import { Navbar } from "@/components/Navbar";
 import { AboutSection } from "@/components/AboutSection";
+import { ExperienceSection } from "@/components/ExperienceSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <TickerBand />
       <AboutSection />
+      <ExperienceSection />
     </main>
   );
 }
