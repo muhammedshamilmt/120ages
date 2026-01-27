@@ -1,6 +1,21 @@
 {
   "app": {
+    "[project]/src/app/about/page": [
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2",
+      "static/media/8bda34f14a064581-s.p.eafdcff3.woff2"
+    ],
+    "[project]/src/app/menu/page": [
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2",
+      "static/media/8bda34f14a064581-s.p.eafdcff3.woff2"
+    ],
     "[project]/src/app/page": [
+      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+      "static/media/797e433ab948586e-s.p.dbea232f.woff2",
+      "static/media/8bda34f14a064581-s.p.eafdcff3.woff2"
+    ],
+    "[project]/src/app/wellness/page": [
       "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
       "static/media/797e433ab948586e-s.p.dbea232f.woff2",
       "static/media/8bda34f14a064581-s.p.eafdcff3.woff2"

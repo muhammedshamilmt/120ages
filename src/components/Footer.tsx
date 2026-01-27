@@ -55,9 +55,10 @@ export function Footer() {
               
               {/* Floating Details */}
               <div className="flex flex-col md:flex-row justify-between items-center w-full mt-12 gap-4 border-t border-vintage-cream/10 pt-8">
-                <p className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40">
-                  © {currentYear} 120 AGES • ALL RIGHTS RESERVED
-                </p>
+                  <p className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40">
+                    © {currentYear} 120 AGES • ALL RIGHTS RESERVED • <Link href="/privacy" className="hover:text-forest-green transition-colors">PRIVACY</Link>
+                  </p>
+
                 <div className="flex gap-8">
                   <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40 cursor-default hover:text-forest-green transition-colors">LON</span>
                   <span className="font-ultra text-[10px] uppercase tracking-[0.4em] text-vintage-cream/40 cursor-default hover:text-forest-green transition-colors">NYC</span>

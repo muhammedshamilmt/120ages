@@ -385,7 +385,7 @@ function Navbar() {
                         },
                         {
                             name: "SHOP",
-                            href: "/#shop"
+                            href: "/shop"
                         },
                         {
                             name: "CONTACT",

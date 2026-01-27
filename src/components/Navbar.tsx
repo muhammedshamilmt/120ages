@@ -17,7 +17,7 @@ export function Navbar() {
                 { name: "MENU", href: "/menu" },
                 { name: "ABOUT", href: "/about" },
                 { name: "WELLNESS", href: "/wellness" },
-                { name: "SHOP", href: "/#shop" },
+                { name: "SHOP", href: "/shop" },
                 { name: "CONTACT", href: "/#contact" },
               ].map((item) => (
             <Link

@@ -1,24 +1,24 @@
 {
   "pages": {
     "/wellness/page": [
-      "static/chunks/76990_next_dist_8bf4cdca._.js",
-      "static/chunks/orchids-projects_orchids-vintage-landing-page_src_app_favicon_ico_mjs_d5e8f0ab._.js",
-      "static/chunks/[root-of-the-server]__71d797ce._.css",
-      "static/chunks/orchids-projects_orchids-vintage-landing-page_de40fc66._.js",
-      "static/chunks/orchids-projects_orchids-vintage-landing-page_src_app_layout_tsx_41cd40f6._.js",
-      "static/chunks/76990_next_dist_client_components_builtin_global-error_3ad4dfc1.js",
-      "static/chunks/76990_next_6bab9ba2._.js",
-      "static/chunks/orchids-projects_orchids-vintage-landing-page_src_components_57a32050._.js",
-      "static/chunks/orchids-projects_orchids-vintage-landing-page_src_app_wellness_page_tsx_3ad4dfc1._.js",
-      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_266ea396._.js",
-      "static/chunks/76990_next_dist_compiled_react-dom_534084fe._.js",
-      "static/chunks/76990_next_dist_compiled_next-devtools_index_c84f8262.js",
-      "static/chunks/76990_next_dist_compiled_6057d9fe._.js",
-      "static/chunks/76990_next_dist_client_b042b710._.js",
-      "static/chunks/76990_next_dist_66a1b7b7._.js",
-      "static/chunks/76990_@swc_helpers_cjs_a06899cc._.js",
-      "static/chunks/orchids-projects_orchids-vintage-landing-page_a0ff3932._.js",
-      "static/chunks/turbopack-orchids-projects_orchids-vintage-landing-page_448e2822._.js"
+      "static/chunks/node_modules_next_dist_8db7fb1f._.js",
+      "static/chunks/src_app_favicon_ico_mjs_243aa161._.js",
+      "static/chunks/[root-of-the-server]__6c7a1abe._.css",
+      "static/chunks/_8da2a22e._.js",
+      "static/chunks/src_app_layout_tsx_0a548d63._.js",
+      "static/chunks/node_modules_next_dist_client_components_builtin_global-error_2660ec25.js",
+      "static/chunks/node_modules_next_f501f63f._.js",
+      "static/chunks/src_components_767c7cff._.js",
+      "static/chunks/src_app_wellness_page_tsx_2660ec25._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_57d40746._.js",
+      "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
+      "static/chunks/node_modules_next_dist_compiled_next-devtools_index_a9cb0712.js",
+      "static/chunks/node_modules_next_dist_compiled_5150ccfd._.js",
+      "static/chunks/node_modules_next_dist_client_cf1d9188._.js",
+      "static/chunks/node_modules_next_dist_b0daae9a._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_b3dc30d6._.js",
+      "static/chunks/_a0ff3932._.js",
+      "static/chunks/turbopack-_cdba956c._.js"
     ]
   }
 }
