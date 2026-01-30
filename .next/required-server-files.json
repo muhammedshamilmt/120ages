@@ -107,7 +107,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\Admine",
+    "outputFileTracingRoot": "C:\\Users\\Admine\\orchids-projects\\orchids-vintage-landing-page",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -304,11 +304,11 @@
           ]
         }
       },
-      "root": "C:\\Users\\Admine"
+      "root": "C:\\Users\\Admine\\orchids-projects\\orchids-vintage-landing-page"
     }
   },
   "appDir": "C:\\Users\\Admine\\orchids-projects\\orchids-vintage-landing-page",
-  "relativeAppDir": "orchids-projects\\orchids-vintage-landing-page",
+  "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
     ".next\\server\\pages-manifest.json",
