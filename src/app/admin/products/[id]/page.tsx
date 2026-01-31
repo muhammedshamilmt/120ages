@@ -163,32 +163,68 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
             </div>
           </div>
 
-          {/* History / Activity */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
-            <h3 className="text-xl font-bold mb-6">Activity Log</h3>
-            <div className="space-y-6">
-              {product.history.map((item, index) => (
-                <div key={index} className="flex gap-4">
-                  <div className="flex flex-col items-center">
-                    <div className="w-2 h-2 rounded-full bg-black mt-2"></div>
-                    {index !== product.history.length - 1 && (
-                      <div className="w-px flex-1 bg-gray-100 my-1"></div>
-                    )}
-                  </div>
-                  <div className="pb-4">
-                    <p className="text-sm font-bold text-gray-900">{item.event}</p>
-                    <div className="flex items-center gap-2 mt-1 text-xs text-gray-500 font-medium">
-                      <Clock size={12} />
-                      <span>{item.date}</span>
-                      <span>•</span>
-                      <span>By {item.user}</span>
+            {/* Activity Log */}
+            <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+              <h3 className="text-xl font-bold mb-6">Activity Log</h3>
+              <div className="space-y-6">
+                {product.history.map((item, index) => (
+                  <div key={index} className="flex gap-4">
+                    <div className="flex flex-col items-center">
+                      <div className="w-2 h-2 rounded-full bg-black mt-2"></div>
+                      {index !== product.history.length - 1 && (
+                        <div className="w-px flex-1 bg-gray-100 my-1"></div>
+                      )}
+                    </div>
+                    <div className="pb-4">
+                      <p className="text-sm font-bold text-gray-900">{item.event}</p>
+                      <div className="flex items-center gap-2 mt-1 text-xs text-gray-500 font-medium">
+                        <Clock size={12} />
+                        <span>{item.date}</span>
+                        <span>•</span>
+                        <span>By {item.user}</span>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+            </div>
+
+            {/* Recent Sales for this product */}
+            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+              <div className="p-8 border-b border-gray-50 flex items-center justify-between">
+                <h3 className="text-xl font-bold">Recent Sales</h3>
+                <Link href="/admin/orders" className="text-sm font-bold text-gray-500 hover:text-black transition-colors flex items-center gap-1">
+                  View All <ChevronRight size={14} />
+                </Link>
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left">
+                  <thead>
+                    <tr className="bg-gray-50/50">
+                      <th className="px-8 py-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Order</th>
+                      <th className="px-8 py-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Customer</th>
+                      <th className="px-8 py-4 text-xs font-bold text-gray-400 uppercase tracking-wider">Date</th>
+                      <th className="px-8 py-4 text-xs font-bold text-gray-400 uppercase tracking-wider text-right">Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-50">
+                    {[
+                      { id: "#ORD-7429", customer: "Alex Johnson", date: "Jan 28, 2026", amount: "$129.00" },
+                      { id: "#ORD-7312", customer: "Sarah Smith", date: "Jan 24, 2026", amount: "$129.00" },
+                      { id: "#ORD-7205", customer: "Mike Wilson", date: "Jan 18, 2026", amount: "$129.00" },
+                    ].map((sale) => (
+                      <tr key={sale.id} className="hover:bg-gray-50/50 transition-colors">
+                        <td className="px-8 py-4 text-sm font-bold text-gray-900">{sale.id}</td>
+                        <td className="px-8 py-4 text-sm text-gray-600 font-medium">{sale.customer}</td>
+                        <td className="px-8 py-4 text-sm text-gray-500">{sale.date}</td>
+                        <td className="px-8 py-4 text-sm font-bold text-gray-900 text-right">{sale.amount}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
 
         {/* Right Column - Media & Inventory */}
         <div className="space-y-8">
@@ -203,28 +239,49 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
             </button>
           </div>
 
-          <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
-            <h3 className="text-lg font-bold mb-4">Inventory Status</h3>
-            <div className="space-y-4">
-              <div className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
-                <div>
-                  <p className="text-xs font-bold text-gray-500 uppercase">Current Stock</p>
-                  <p className="text-xl font-bold mt-1">{product.stock} units</p>
+            {/* Inventory Status */}
+            <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+              <h3 className="text-lg font-bold mb-4">Inventory Status</h3>
+              <div className="space-y-4">
+                <div className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
+                  <div>
+                    <p className="text-xs font-bold text-gray-500 uppercase">Current Stock</p>
+                    <p className="text-xl font-bold mt-1">{product.stock} units</p>
+                  </div>
+                  <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-sm">
+                    <Package size={20} className="text-black" />
+                  </div>
                 </div>
-                <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-sm">
-                  <Package size={20} className="text-black" />
+                
+                <div className="flex items-center justify-between p-4 border border-gray-100 rounded-xl">
+                  <div>
+                    <p className="text-xs font-bold text-gray-500 uppercase">Alert Level</p>
+                    <p className="text-lg font-bold mt-1">5 units</p>
+                  </div>
+                  <button className="text-xs font-bold text-blue-600 hover:underline">Edit</button>
                 </div>
-              </div>
-              
-              <div className="flex items-center justify-between p-4 border border-gray-100 rounded-xl">
-                <div>
-                  <p className="text-xs font-bold text-gray-500 uppercase">Alert Level</p>
-                  <p className="text-lg font-bold mt-1">5 units</p>
-                </div>
-                <button className="text-xs font-bold text-blue-600 hover:underline">Edit</button>
               </div>
             </div>
-          </div>
+
+            {/* Product Variants */}
+            <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm">
+              <h3 className="text-lg font-bold mb-4">Variants</h3>
+              <div className="space-y-3">
+                {[
+                  { size: "S", stock: 2, price: "$129.00" },
+                  { size: "M", stock: 5, price: "$129.00" },
+                  { size: "L", stock: 5, price: "$129.00" },
+                ].map((variant) => (
+                  <div key={variant.size} className="flex items-center justify-between p-3 border border-gray-50 rounded-xl">
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 bg-gray-100 rounded-lg flex items-center justify-center text-xs font-bold">{variant.size}</div>
+                      <span className="text-sm font-medium text-gray-600">{variant.stock} in stock</span>
+                    </div>
+                    <span className="text-sm font-bold">{variant.price}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
 
           <div className="bg-black p-8 rounded-2xl text-white shadow-xl shadow-black/10">
             <h3 className="text-lg font-bold mb-4">Performance Insights</h3>

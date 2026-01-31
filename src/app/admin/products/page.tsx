@@ -6,7 +6,8 @@ import {
   MoreHorizontal, 
   Edit2, 
   Trash2, 
-  ExternalLink 
+  ExternalLink,
+  Eye
 } from "lucide-react";
 
 const products = [
@@ -129,19 +130,25 @@ export default function ProductsPage() {
                       {product.status}
                     </span>
                   </td>
-                  <td className="px-6 py-4 text-right">
-                    <div className="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <button className="p-2 hover:bg-gray-100 rounded-lg text-gray-500 hover:text-black transition-colors">
-                        <Edit2 size={16} />
-                      </button>
-                      <button className="p-2 hover:bg-red-50 rounded-lg text-gray-500 hover:text-red-600 transition-colors">
-                        <Trash2 size={16} />
-                      </button>
-                      <button className="p-2 hover:bg-gray-100 rounded-lg text-gray-500 hover:text-black transition-colors">
-                        <MoreHorizontal size={16} />
-                      </button>
-                    </div>
-                  </td>
+                    <td className="px-6 py-4 text-right">
+                      <div className="flex items-center justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <Link 
+                          href={`/admin/products/${product.id}`}
+                          className="p-2 hover:bg-gray-100 rounded-lg text-gray-500 hover:text-black transition-colors"
+                        >
+                          <Eye size={16} />
+                        </Link>
+                        <button className="p-2 hover:bg-gray-100 rounded-lg text-gray-500 hover:text-black transition-colors">
+                          <Edit2 size={16} />
+                        </button>
+                        <button className="p-2 hover:bg-red-50 rounded-lg text-gray-500 hover:text-red-600 transition-colors">
+                          <Trash2 size={16} />
+                        </button>
+                        <button className="p-2 hover:bg-gray-100 rounded-lg text-gray-500 hover:text-black transition-colors">
+                          <MoreHorizontal size={16} />
+                        </button>
+                      </div>
+                    </td>
                 </tr>
               ))}
             </tbody>
