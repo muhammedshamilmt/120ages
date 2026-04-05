@@ -1,12 +1,21 @@
 {
-  "/admin/analytics/page": "/admin/analytics",
-  "/admin/dashboard/page": "/admin/dashboard",
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/menu/page": "/menu",
+  "/wellness/page": "/wellness",
+  "/shop/page": "/shop",
+  "/privacy/page": "/privacy",
+  "/page": "/",
   "/admin/orders/[id]/page": "/admin/orders/[id]",
   "/admin/orders/page": "/admin/orders",
+  "/admin/analytics/page": "/admin/analytics",
+  "/admin/dashboard/page": "/admin/dashboard",
+  "/admin/page": "/admin",
   "/admin/payments/page": "/admin/payments",
   "/admin/products/new/page": "/admin/products/new",
-  "/admin/products/page": "/admin/products",
   "/admin/settings/page": "/admin/settings",
-  "/favicon.ico/route": "/favicon.ico",
-  "/page": "/"
+  "/admin/products/[id]/page": "/admin/products/[id]",
+  "/admin/products/page": "/admin/products",
+  "/shop/[id]/page": "/shop/[id]"
 }

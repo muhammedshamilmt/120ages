@@ -1,10 +1,21 @@
 {
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/menu/page": "app/menu/page.js",
+  "/wellness/page": "app/wellness/page.js",
+  "/shop/page": "app/shop/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/page": "app/page.js",
+  "/admin/orders/[id]/page": "app/admin/orders/[id]/page.js",
+  "/admin/orders/page": "app/admin/orders/page.js",
   "/admin/analytics/page": "app/admin/analytics/page.js",
   "/admin/dashboard/page": "app/admin/dashboard/page.js",
-  "/admin/orders/page": "app/admin/orders/page.js",
   "/admin/page": "app/admin/page.js",
   "/admin/payments/page": "app/admin/payments/page.js",
+  "/admin/products/new/page": "app/admin/products/new/page.js",
+  "/admin/settings/page": "app/admin/settings/page.js",
+  "/admin/products/[id]/page": "app/admin/products/[id]/page.js",
   "/admin/products/page": "app/admin/products/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/shop/[id]/page": "app/shop/[id]/page.js"
 }

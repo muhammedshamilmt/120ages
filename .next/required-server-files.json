@@ -56,6 +56,7 @@
       "formats": [
         "image/webp"
       ],
+      "maximumResponseBody": 50000000,
       "dangerouslyAllowSVG": false,
       "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
       "contentDispositionType": "attachment",
@@ -107,7 +108,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\Admine\\orchids-projects\\orchids-vintage-landing-page",
+    "outputFileTracingRoot": "F:\\shamil 53\\herald-group\\120ages",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -166,7 +167,7 @@
       "middlewarePrefetch": "flexible",
       "optimisticClientCache": true,
       "manualClientBasePath": false,
-      "cpus": 11,
+      "cpus": 7,
       "memoryBasedWorkersCount": false,
       "imgOptConcurrency": null,
       "imgOptTimeoutInSeconds": 7,
@@ -300,14 +301,14 @@
       "rules": {
         "*.{jsx,tsx}": {
           "loaders": [
-            "C:\\Users\\Admine\\orchids-projects\\orchids-vintage-landing-page\\node_modules\\orchids-visual-edits\\src\\component-tagger-loader.js"
+            "F:\\shamil 53\\herald-group\\120ages\\node_modules\\orchids-visual-edits\\src\\component-tagger-loader.js"
           ]
         }
       },
-      "root": "C:\\Users\\Admine\\orchids-projects\\orchids-vintage-landing-page"
+      "root": "F:\\shamil 53\\herald-group\\120ages"
     }
   },
-  "appDir": "C:\\Users\\Admine\\orchids-projects\\orchids-vintage-landing-page",
+  "appDir": "F:\\shamil 53\\herald-group\\120ages",
   "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",

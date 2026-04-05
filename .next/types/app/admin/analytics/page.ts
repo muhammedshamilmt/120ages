@@ -1,4 +1,4 @@
-// File: C:\Users\Admine\orchids-projects\orchids-vintage-landing-page\src\app\admin\analytics\page.tsx
+// File: F:\shamil 53\herald-group\120ages\src\app\admin\analytics\page.tsx
 import * as entry from '../../../../../src/app/admin/analytics/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

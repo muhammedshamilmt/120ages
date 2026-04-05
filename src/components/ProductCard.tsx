@@ -14,10 +14,15 @@ export function ProductCard({ product }: { product: Product }) {
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-110"
           />
-          <div className="absolute top-4 left-4">
+          <div className="absolute top-4 left-4 flex flex-col gap-2">
           <span className="bg-forest-green text-vintage-cream px-3 py-1 font-ultra text-[10px] tracking-widest uppercase">
             {product.category}
           </span>
+          {product.offer && (
+            <span className="bg-muted-brown text-vintage-cream px-3 py-1 font-ultra text-[10px] tracking-widest uppercase rounded-full">
+              {product.offer}
+            </span>
+          )}
         </div>
       </div>
 
