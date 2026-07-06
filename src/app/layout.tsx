@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Ultra, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Ultra, Poppins, Outfit } from "next/font/google";
 import "./globals.css";
 import { VisualEditsWrapper } from "@/components/VisualEditsWrapper";
 import { CartProvider } from "@/hooks/use-cart";
@@ -13,6 +13,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
 });
 
 const ultra = Ultra({
@@ -40,7 +45,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${ultra.variable} ${poppins.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${ultra.variable} ${poppins.variable} ${outfit.variable} antialiased text-sm`}
       >
         <CartProvider>
           {children}

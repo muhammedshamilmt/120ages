@@ -6,9 +6,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-outfit);
   --font-mono: var(--font-geist-mono);
-    --font-ultra: var(--font-ultra);
+    --font-ultra: var(--font-outfit);
     --color-muted-brown: #4A3C31;
     --color-forest-green: #7E775B;
     --color-vintage-cream: #FFF5DC;
