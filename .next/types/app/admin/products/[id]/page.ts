@@ -1,4 +1,4 @@
-// File: F:\shamil 53\herald-group\120ages\src\app\admin\products\[id]\page.tsx
+// File: /Users/apple/shamil/herald group/120ages/src/app/admin/products/[id]/page.tsx
 import * as entry from '../../../../../../src/app/admin/products/[id]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

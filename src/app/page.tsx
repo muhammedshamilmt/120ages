@@ -1,3 +1,4 @@
+import { TopBanner } from "@/components/TopBanner";
 import { Hero } from "@/components/Hero";
 import { TickerBand } from "@/components/TickerBand";
 import { Navbar } from "@/components/Navbar";
@@ -16,6 +17,7 @@ import { BlogsSection } from "@/components/BlogsSection";
 export default function Home() {
   return (
     <main className="min-h-screen bg-vintage-cream">
+      <TopBanner />
       <Navbar />
       <Hero />
       <TickerBand />
