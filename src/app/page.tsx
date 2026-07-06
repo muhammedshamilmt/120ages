@@ -17,10 +17,10 @@ import { BlogsSection } from "@/components/BlogsSection";
 export default function Home() {
   return (
     <main className="min-h-screen bg-vintage-cream">
-      <TopBanner />
+      {/* <TopBanner /> */}
+      <TickerBand />
       <Navbar />
       <Hero />
-      <TickerBand />
       <AboutSection />
       <ExploreCollections />
       <NewArrivals />

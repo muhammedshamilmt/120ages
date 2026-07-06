@@ -10,7 +10,7 @@ export function Navbar() {
 
   return (
     <nav className="relative w-full z-50 bg-vintage-cream border-b-2 border-muted-brown/20">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6  flex items-center justify-between">
         {/* Logo / Heading */}
         <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
           <Image
