@@ -10,7 +10,7 @@ import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
 import { ExploreCollections } from "@/components/ExploreCollections";
 import { NewArrivals } from "@/components/NewArrivals";
-import { BestSellers } from "@/components/BestSellers";
+import { ProductList } from "@/components/ProductList";
 import { ReviewsSection } from "@/components/ReviewsSection";
 import { BlogsSection } from "@/components/BlogsSection";
 
@@ -24,7 +24,7 @@ export default function Home() {
       <AboutSection />
       <ExploreCollections />
       <NewArrivals />
-      <BestSellers />
+      <ProductList />
       <ExperienceSection />
       <OfferingsSection />
       <ReviewsSection />
