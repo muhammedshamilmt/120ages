@@ -13,16 +13,16 @@ export function ProductList() {
       <div className="max-w-screen-2xl mx-auto">
         <div className="mb-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div>
-            <h2 className="text-3xl md:text-[40px] font-medium text-[#6B6149] mb-3 leading-tight font-sans">
+            <h2 className="text-2xl md:text-3xl font-medium text-[#50A845] mb-2 leading-tight font-sans">
               Switch to a Healthier Lifestyle
             </h2>
-            <p className="text-[#8B8371] text-base font-sans">
+            <p className="text-[#8B8371] text-sm md:text-base font-sans">
               Balance your day with pure, focused energy
             </p>
           </div>
           <Link
             href="/shop"
-            className="self-start md:self-end bg-[#6B6149] text-white px-8 py-2.5 rounded font-sans text-sm hover:bg-[#5a513d] transition-colors"
+            className="self-start md:self-end bg-[#50A845] text-white px-6 py-2 rounded font-sans text-sm hover:bg-[#3f8735] transition-colors"
           >
             View All
           </Link>
